@@ -140,5 +140,3 @@ Available commands in your project:
   - name: `Super Admin`
   - email: `admin@strapi.io`
   - password: `Admin987654321`
-
-**TODO:** update docker compose to use `DATABASE_NAME`, `DATABASE_USERNAME`, and `DATABASE_PASSWORD`
