@@ -1,5 +1,5 @@
 {
-  "name": "tmp",
+  "name": "strapicms-server",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -35,7 +35,7 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "e85fa7fa-13ef-485c-9d76-5bfc0b744705",
-    "installId": "fea212cb75490b5f17a9d216c82c791622385702417b7f0d0b4e6742565914e2"
+    "uuid": "b6169425-61df-425a-a60e-375374c72a6b",
+    "installId": "baad1ff8c60e7f2f4226d52378443011483c376d9aad48d588e170473f0812f7"
   }
 }

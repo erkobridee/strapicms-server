@@ -9,6 +9,7 @@ Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
 ## TODO
 
 - Define the intial definition based on [Astro & Strapi Website Tutorial: Part 2 - Intro to Strapi](https://strapi.io/blog/astro-and-strapi-website-tutorial-part-2-intro-to-strapi) [code](https://github.com/Theodore-Kelechukwu-Onyejiaku/astro-strapi-tutorial/tree/part-2/blog)
+
   - use a docker to define a local PostgreSQL, useful ref: [[GitHub] erkobridee/docker-postgresql](https://github.com/erkobridee/docker-postgresql)
 
 - Initial idea for the "Data Model"
@@ -119,3 +120,23 @@ Available commands in your project:
           npm install
           npm run develop
 ```
+
+- `cd tmp`
+
+- `mv {,.[^.]}* ../`
+
+- `cd ..`
+
+- `rm -rf tmp`
+
+- `npm i`
+
+- `npm run dev`
+
+- open `http://localhost:1337/admin`
+
+- setup a super admin user, for example
+
+  - name: `Super Admin`
+  - email: `admin@strapi.io`
+  - password: `Admin987654321`
