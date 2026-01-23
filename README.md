@@ -38,3 +38,21 @@ Page
     - image
     - alt text
 ```
+
+## Setup
+
+### 1\. PostgreSQL Database
+
+- configurations at the `.env` file ( check the `.env.example` )
+
+- `docker-compose.yml` that setup the `postgres:17-alpine` image with a pre defined volume, and uses the configurations from the `.env` file
+
+- start as a background `docker compose up -d` ( to stop: `docker compose down` )
+
+#### check the running containers
+
+- `docker ps`
+
+#### test the access into the Postgres database
+
+- `docker exec -it strapicms-database-1 psql -U ${POSTGRES_USER} -d ${POSTGRES_DB}`
