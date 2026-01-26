@@ -97,26 +97,26 @@ Strapi Creating a new application at /home/username/git-repos/strapicms-server/t
 Strapi Your application was created!
 Available commands in your project:
 
-          Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
-          npm run develop
+    Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
+    npm run develop
 
-          Start Strapi without watch mode.
-          npm run start
+    Start Strapi without watch mode.
+    npm run start
 
-          Build Strapi admin panel.
-          npm run build
+    Build Strapi admin panel.
+    npm run build
 
-          Deploy Strapi project.
-          npm run deploy
+    Deploy Strapi project.
+    npm run deploy
 
-          Display all available commands.
-          npm run strapi
+    Display all available commands.
+    npm run strapi
 
-          To get started run
+    To get started run
 
-          cd /home/username/git-repos/strapicms-server/tmp
-          npm install
-          npm run develop
+    cd /home/username/git-repos/strapicms-server/tmp
+    npm install
+    npm run develop
 ```
 
 - `cd tmp`
