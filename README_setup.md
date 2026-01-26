@@ -15,29 +15,27 @@ Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
 - Initial idea for the "Data Model"
 
 ```
-Blog
+Page
   - title
-  - description
   - slug
+  - description
   - body
-  - tags (Relationship with the tags collection)
   - cover
-    - image
-    - alt text
+  - coverAltText
 
 Tag
   - title
-  - description
   - slug
+  - description
 
-Page
+Blog
   - title
-  - description
   - slug
+  - description
   - body
+  - tags (Relationship with the tags collection)
   - cover
-    - image
-    - alt text
+  - coverAltText
 ```
 
 ## Setup
