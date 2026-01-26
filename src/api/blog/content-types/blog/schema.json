@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "blogs",
   "info": {
-    "singularName": "tag",
-    "pluralName": "tags",
-    "displayName": "Tag"
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog"
   },
   "options": {
     "draftAndPublish": true
@@ -42,11 +42,40 @@
         }
       }
     },
-    "blogs": {
+    "body": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "tags": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::blog.blog",
-      "mappedBy": "tags"
+      "target": "api::tag.tag",
+      "inversedBy": "blogs"
+    },
+    "cover": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "coverAltText": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
