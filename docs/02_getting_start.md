@@ -47,6 +47,7 @@ yarn strapi deploy
 - [Resource center](https://strapi.io/resource-center) - Strapi resource center.
 - [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
   - [REST API](https://docs.strapi.io/cms/api/rest/)
+    - [parameters](https://docs.strapi.io/cms/api/rest/parameters)
     - [locale](https://docs.strapi.io/cms/api/rest/locale)
     - [status](https://docs.strapi.io/cms/api/rest/status) - `published`, `draft`, or `*`
 - [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
