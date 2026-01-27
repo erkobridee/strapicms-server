@@ -8,8 +8,10 @@ Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
 
 ## Docs
 
-- [01 - Project Setup](docs/01_setup.md)
+- [Project Setup](docs/01_setup.md)
 
-- [02 - Getting started with Strapi](docs/02_getting_start.md)
+- [Getting started with Strapi](docs/02_getting_start.md)
 
-- [03 - Project Backup and Restore](docs/03_backup_and_restore.md)
+- [Project Backup and Restore](docs/03_backup_and_restore.md)
+
+- [Useful References](docs/99_useful_references.md)
