@@ -4,7 +4,11 @@ Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
 
 - [CMS Docs](https://docs.strapi.io/cms/intro)
 
+  - [CMS Pricing](https://strapi.io/pricing-cms)
+
 - [Cloud Docs](https://docs.strapi.io/cloud/intro)
+
+  - [Cloud Pricing](https://strapi.io/pricing-cloud)
 
 ## Docs
 
