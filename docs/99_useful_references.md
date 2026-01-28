@@ -20,7 +20,3 @@ TODO: check
 - [How to Customize the Strapi Back-end Using TypeScript | DEV Community](https://dev.to/strapi/how-to-customize-the-strapi-back-end-services-routes-controllers-queries-using-typescript-26oj)
 
   - [How to Customize the Strapi Back-end (Services, Routes, Controllers, Queries) using TypeScript | Strapi Blog](https://strapi.io/blog/how-to-customize-the-strapi-back-end-using-typescript)
-
-- [How to Backup a PostgreSQL Database in Docker: Step-by-Step Guide | DEV Community](https://dev.to/mdarifulhaque/how-to-backup-a-postgresql-database-in-docker-step-by-step-guide-cp2)
-
-- [Dump & Restore PostgreSQL database in a Docker | Peter's Notes](https://petersnotes.com/posts/dump--restore-postgresql-database-in-a-docker/)
