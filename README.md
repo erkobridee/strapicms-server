@@ -10,6 +10,26 @@ Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
 
   - [Cloud Pricing](https://strapi.io/pricing-cloud)
 
+## CLI commands
+
+1\. setup the project
+
+```shell
+make
+```
+
+2\. start the Strapi CMS
+
+```shell
+npm run dev
+```
+
+3\. access the Strapi CMS admin page
+
+```http
+http://localhost:1337
+```
+
 ## Docs
 
 - [Project Setup](docs/01_setup.md)
