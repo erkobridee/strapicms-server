@@ -32,3 +32,13 @@ TODO: check
     ```shell
     npm i -S keyv@5.5.0 @strapi-community/plugin-rest-cache
     ```
+
+    Redis provider
+
+    ```shell
+    npm i -S @strapi-community/plugin-redis @strapi-community/provider-rest-cache-redis
+    ```
+
+    - [Setting Up Redis with Docker: A Step-by-Step Guide | DEV Community](https://dev.to/yousufbasir/setting-up-redis-with-docker-a-step-by-step-guide-3g2h)
+
+    - [Setting Up Redis with Docker Compose | Sliplane](https://sliplane.io/blog/setting-up-redis-with-docker-compose)

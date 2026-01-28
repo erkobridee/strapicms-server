@@ -15,7 +15,9 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
+    "@strapi-community/plugin-redis": "^2.0.0",
     "@strapi-community/plugin-rest-cache": "^5.0.0",
+    "@strapi-community/provider-rest-cache-redis": "^5.0.0",
     "@strapi/plugin-cloud": "5.33.4",
     "@strapi/plugin-users-permissions": "5.33.4",
     "@strapi/strapi": "5.33.4",
