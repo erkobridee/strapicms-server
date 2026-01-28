@@ -25,4 +25,10 @@ TODO: check
 
 - [Strapi REST Cache Plugin Now Supports Strapi v5 | Strapi Blog](https://strapi.io/blog/strapi-rest-cache-plugin-now-supports-strapi-v5)
 
+  - [Installation | REST Cache](https://strapi-community.github.io/plugin-rest-cache/guide/installation.html)
+
   - [[GitHub] strapi-community/plugin-rest-cache](https://github.com/strapi-community/plugin-rest-cache) - Speed-up HTTP requests with LRU cache.
+
+    ```shell
+    npm i -S keyv@5.5.0 @strapi-community/plugin-rest-cache
+    ```
