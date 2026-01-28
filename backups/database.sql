@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict mctrRHMoqFw0z7AjgknE2Fv3lzuyfq9oyNawQVacijLzOrzru7QHmBjPR4QFskA
+\restrict An1fSrwj6q3PQp85hBwJZtqcNmN43l5ppEzKOxvzXxYrAX9ph7n79pFI369HBDl
 
 -- Dumped from database version 17.7
 -- Dumped by pg_dump version 17.7
@@ -2484,6 +2484,9 @@ COPY public.admin_permissions (id, document_id, action, action_parameters, subje
 113	rqr5s7kpcb4k68dmhjoggj5d	plugin::content-manager.explorer.update	{}	api::tag.tag	{"fields": ["title", "slug", "description", "blogs"], "locales": ["en", "pt-BR"]}	[]	2026-01-26 10:06:59.076	2026-01-26 10:06:59.076	2026-01-26 10:06:59.076	\N	\N	\N
 114	hlyp5sx99f5mxs4wgewekoie	plugin::content-manager.explorer.delete	{}	api::blog.blog	{"locales": ["en", "pt-BR"]}	[]	2026-01-26 10:06:59.083	2026-01-26 10:06:59.083	2026-01-26 10:06:59.083	\N	\N	\N
 115	dm6orqwh3j24yvoq1bhjm621	plugin::content-manager.explorer.publish	{}	api::blog.blog	{"locales": ["en", "pt-BR"]}	[]	2026-01-26 10:06:59.09	2026-01-26 10:06:59.09	2026-01-26 10:06:59.09	\N	\N	\N
+116	u8e403uqxfxze5batm1hqle7	plugin::rest-cache.cache.purge	{}	\N	{}	[]	2026-01-28 15:42:58.774	2026-01-28 15:42:58.774	2026-01-28 15:42:58.776	\N	\N	\N
+117	nifz41hipzr3j53i6obt9ypk	plugin::rest-cache.cache.read-strategy	{}	\N	{}	[]	2026-01-28 15:42:58.8	2026-01-28 15:42:58.8	2026-01-28 15:42:58.8	\N	\N	\N
+118	iqqzl181z5l2echeriiy1bml	plugin::rest-cache.cache.read-provider	{}	\N	{}	[]	2026-01-28 15:42:58.809	2026-01-28 15:42:58.809	2026-01-28 15:42:58.809	\N	\N	\N
 \.
 
 
@@ -2577,6 +2580,9 @@ COPY public.admin_permissions_role_lnk (id, permission_id, role_id, permission_o
 113	113	1	74
 114	114	1	75
 115	115	1	76
+116	116	1	77
+117	117	1	78
+118	118	1	79
 \.
 
 
@@ -2950,7 +2956,9 @@ COPY public.strapi_sessions (id, document_id, user_id, session_id, child_id, dev
 14	ayqi8knzzmgmck8plfb24jr8	1	e8bd498a0c28d0667c38f65467d1f3db	b9ea8412d046c1986d6542bab0079e2e	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-10 10:58:23.619	2026-02-25 08:48:37.207	rotated	refresh	2026-01-27 10:58:23.619	2026-01-27 11:39:48.062	2026-01-27 10:58:23.62	\N	\N	\N
 16	dz8hsauou2s6hrzodl9dxtzm	1	2ead4f564ef25a8f5c0f2e2892c57492	\N	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 12:38:34.066	2026-02-25 08:48:37.207	active	refresh	2026-01-28 12:38:34.067	2026-01-28 12:38:34.067	2026-01-28 12:38:34.068	\N	\N	\N
 15	ey9v12zjxlggzz54kir3lkt7	1	b9ea8412d046c1986d6542bab0079e2e	2ead4f564ef25a8f5c0f2e2892c57492	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-10 11:39:48.047	2026-02-25 08:48:37.207	rotated	refresh	2026-01-27 11:39:48.048	2026-01-28 12:38:34.075	2026-01-27 11:39:48.05	\N	\N	\N
-17	l3u1vm19ccqaaeennfk2mltt	1	a58a5f5f35672453f2ac07048aed0ecd	\N	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 14:06:13.311	2026-02-27 14:06:13.311	active	refresh	2026-01-28 14:06:13.311	2026-01-28 14:06:13.311	2026-01-28 14:06:13.312	\N	\N	\N
+17	l3u1vm19ccqaaeennfk2mltt	1	a58a5f5f35672453f2ac07048aed0ecd	9a4ff9f92aa1b6c1f011bf93fc9cae56	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 14:06:13.311	2026-02-27 14:06:13.311	rotated	refresh	2026-01-28 14:06:13.311	2026-01-28 15:31:24.403	2026-01-28 14:06:13.312	\N	\N	\N
+19	tmpoxahe052ccos2i246akt4	1	5ecc4a236d3274f39b11140e56038f57	\N	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 16:08:50.165	2026-02-27 14:06:13.311	active	refresh	2026-01-28 16:08:50.165	2026-01-28 16:08:50.165	2026-01-28 16:08:50.166	\N	\N	\N
+18	efl50ucygk86t71c4a1ydbbx	1	9a4ff9f92aa1b6c1f011bf93fc9cae56	5ecc4a236d3274f39b11140e56038f57	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 15:31:24.389	2026-02-27 14:06:13.311	rotated	refresh	2026-01-28 15:31:24.39	2026-01-28 16:08:50.173	2026-01-28 15:31:24.391	\N	\N	\N
 \.
 
 
@@ -3158,14 +3166,14 @@ COPY public.upload_folders_parent_lnk (id, folder_id, inv_folder_id, folder_ord)
 -- Name: admin_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.admin_permissions_id_seq', 115, true);
+SELECT pg_catalog.setval('public.admin_permissions_id_seq', 118, true);
 
 
 --
 -- Name: admin_permissions_role_lnk_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.admin_permissions_role_lnk_id_seq', 115, true);
+SELECT pg_catalog.setval('public.admin_permissions_role_lnk_id_seq', 118, true);
 
 
 --
@@ -3326,7 +3334,7 @@ SELECT pg_catalog.setval('public.strapi_releases_id_seq', 1, false);
 -- Name: strapi_sessions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.strapi_sessions_id_seq', 17, true);
+SELECT pg_catalog.setval('public.strapi_sessions_id_seq', 19, true);
 
 
 --
@@ -5259,5 +5267,5 @@ ALTER TABLE ONLY public.upload_folders
 -- PostgreSQL database dump complete
 --
 
-\unrestrict mctrRHMoqFw0z7AjgknE2Fv3lzuyfq9oyNawQVacijLzOrzru7QHmBjPR4QFskA
+\unrestrict An1fSrwj6q3PQp85hBwJZtqcNmN43l5ppEzKOxvzXxYrAX9ph7n79pFI369HBDl
 
