@@ -6,7 +6,7 @@
 
   - use a docker to define a local PostgreSQL, useful ref: [[GitHub] erkobridee/docker-postgresql](https://github.com/erkobridee/docker-postgresql)
 
-- Initial "Data Model"
+- Data Model
 
 ```
 Page
