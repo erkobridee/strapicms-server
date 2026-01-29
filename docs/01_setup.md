@@ -132,3 +132,7 @@ Available commands in your project:
   - name: `Super Admin`
   - email: `admin@strapi.io`
   - password: `Admin987654321`
+
+---
+
+Code after finishing the setup: [tag clean-setup_20260128](https://github.com/erkobridee/strapicms-server/tree/clean-setup_20260128)
