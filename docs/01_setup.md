@@ -133,6 +133,8 @@ Available commands in your project:
   - email: `admin@strapi.io`
   - password: `Admin987654321`
 
----
+## Code State
 
-Code after finishing the setup: [tag clean-setup_20260128](https://github.com/erkobridee/strapicms-server/tree/clean-setup_20260128)
+- Setup finished: [tag clean-setup_20260128](https://github.com/erkobridee/strapicms-server/tree/clean-setup_20260128)
+
+- Basic blog content defined: [PR1](https://github.com/erkobridee/strapicms-server/pull/1)
