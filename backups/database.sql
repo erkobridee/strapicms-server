@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict An1fSrwj6q3PQp85hBwJZtqcNmN43l5ppEzKOxvzXxYrAX9ph7n79pFI369HBDl
+\restrict cTt6xxZkw8gzOzdymVO6fttfRPHVOT2c7I6S8KWpuCNotX71wMcu2R8fIvh0YLY
 
 -- Dumped from database version 17.7
 -- Dumped by pg_dump version 17.7
@@ -2646,6 +2646,8 @@ COPY public.blogs (id, document_id, title, slug, description, body, cover_alt_te
 21	qti85zm4k9gp3seox7yj8480	O Herdeiro das Estrelas	the-inheritor-of-stars	Um destino gravado no cosmos, uma jornada épica rumo ao coração da Via Láctea.	Erko Bridee sempre sentiu um chamado vindo das estrelas. Não era apenas o anseio romântico de um astrônomo amador, mas um **latejar profundo**, quase ancestral, em seus ossos. Ele passava as noites observando a Via Láctea do alto de seu observatório caseiro — um galpão caindo aos pedaços que ele apelidara carinhosamente de "O Leme". Em uma noite límpida, enquanto uma chuva de meteoros pintava riscos na tela de nanquim do céu, uma luz diferente **pulsou** na escuridão distante — ela não estava caindo, estava **chegando**.\n\nA nave pousou sem emitir um sussurro: uma **lágrima de obsidiana** polida aninhada em seu quintal tomado pelo mato. Ela **faiscava** com uma luminescência interna impossível. Uma única e elegante escotilha deslizou, revelando um interior feito de luz estelar turbulenta e símbolos complexos e desconhecidos. Cautelosamente, Erko se aproximou.\n\nAo cruzar o limiar, um **zumbido** suave o envolveu. Os símbolos nas paredes pulsaram, **condensando-se** em uma projeção holográfica cintilante. Uma voz serena e etérea, sem origem ou gênero definido, **ressoou diretamente em sua mente**: "Bem-vindo, Capitão Designado Erko Bridee. Você foi **reconhecido**."\n\nErko, atônito, mal conseguiu gaguejar: "Reconhecido? Pelo quê?"\n\n"Por sua **linhagem**, seu ímpeto inato e sua **capacidade de exploração**", respondeu a voz, em um tom inabalável. "Esta embarcação, a *Errante da Poeira Estelar*, é uma relíquia de uma **civilização de Nível 9**, adormecida por milênios à espera de seu piloto pretendido. Seus marcadores genéticos alinham-se aos protocolos antigos."\n\nEle olhou ao redor da ponte de comando, uma sinfonia de tecnologia avançada que desafiava a compreensão humana. Os controles não eram botões ou alavancas, mas **condutos cristalinos** que respondiam aos seus pensamentos. "Uma civilização de Nível 9?", sussurrou ele, com a mente girando. Tal civilização era teórica, capaz de manipular o **espaço-tempo** e até galáxias inteiras.\n\n"De fato", afirmou a voz. "Nossa missão, iniciada há éons, era viajar até o **âmago da Via Láctea** para testemunhar as **energias primordiais** que governam nossa galáxia. Agora, o momento é chegado. E você, Erko Bridee, é quem irá completá-la."\n\nEle respirou fundo, com a mão repousando instintivamente sobre um console liso e frio. "Então, vamos lá", declarou ele, sua voz ganhando força. "Para o centro da galáxia."\n\nA *Errante da Poeira Estelar* vibrou, um **rugido** baixo e poderoso que ecoou por todo o ser de Erko. O quintal desapareceu em um borrão enquanto a nave **ascendia**, perfurando a atmosfera com uma graça silenciosa. Erko, o capitão inesperado, não estava mais apenas olhando para as estrelas; ele **estava entre elas**, destinado ao seu coração incandescente.	O Herdeiro das Estrelas	2026-01-27 10:59:35.752	2026-01-27 11:07:25.083	\N	1	1	pt-BR
 9	kr09fpwvi4t8lrhejpic5pbk	Content with images	content-with-images	Testing a blog post that has images in its content	Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\n\n![this-shrimp-is-awesome.jpg](/uploads/this_shrimp_is_awesome_9c30d9f773.jpg)\n\n\nStet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n![we-love-pizza.jpg](/uploads/we_love_pizza_8452b56f30.jpg)\n\n\nend of the blog post	\N	2026-01-27 09:59:24.398	2026-01-27 11:49:20.114	\N	1	1	en
 31	kr09fpwvi4t8lrhejpic5pbk	Content with images	content-with-images	Testing a blog post that has images in its content	Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\n\n![this-shrimp-is-awesome.jpg](/uploads/this_shrimp_is_awesome_9c30d9f773.jpg)\n\n\nStet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n![we-love-pizza.jpg](/uploads/we_love_pizza_8452b56f30.jpg)\n\n\nend of the blog post	\N	2026-01-27 09:59:24.398	2026-01-27 11:49:20.114	2026-01-27 11:49:20.136	1	1	en
+32	kv5pvitbhbnwr93y2cvnhqde	The Last Artisan of the Digital Forge	the-last-artisan-of-the-digital-forge	A seasoned developer faces the relentless tide of generative AI, fighting to prove that intuition and deep understanding still hold value in a world of instant code.	The cursor blinked, a steady digital pulse against the dark background of Elias's IDE. Ghost text, grey and italicized, shimmered ahead of his own typing—a suggestion from the machine mind. It was good. Scarily good. It anticipated his variable names, his logic structures. It was like having a brilliant, over-eager apprentice perpetually leaning over his shoulder.\n\nElias sighed and hit `Esc`, banishing the phantom code. "Not today, Hal," he muttered.\n\nHe’d been coding for twenty years. He remembered manuals thick enough to stun a burglar, dial-up modem screeches, and the raw triumph of making a machine obey. Now, the junior developers pushed features in hours that used to take him days, their code a patchwork quilt stitched together by large language models. They were fast, yes. But did they *understand* the fabric they were weaving?\n\nThe real test came with ticket #849: a Heisenbug in the core transaction engine. Customers were being double-charged at random intervals. The team slack channel lit up with AI-generated snippets. "Try this mutex lock," said one. "GPT suggests wrapping it in a transaction block," said another.\n\nThey were plaster solutions for a structural crack.\n\nElias isolated himself. He turned off the AI assistants. He closed the chat windows. He dove into the legacy codebase, a sprawling, messy cathedral of logic built by hands long gone. He didn't just read the code; he felt the rhythm of it, tracing the intentions of its original architects.\n\nHours bled into the night. His coffee went cold. Finally, deep in a forgotten module related to timezone conversions, he found it. A subtle race condition triggered only during leap seconds, an edge case no general training data would prioritize. The AI tools had suggested patching the symptoms; Elias found the disease.\n\nHe wrote the fix—ten elegant lines of C++. No fluff. No automatic generation. Just pure, distilled human understanding.\n\nHe pushed the commit. The automated tests turned green. The bug was gone.\n\nElias leaned back, the hum of his computer a familiar comfort in the quiet room. The AI was a powerful engine, undeniable and relentless. But tonight, he reminded himself that someone still needed to know how to steer. He wasn't fighting the current; he was learning to be the better captain. The ground beneath his feet felt solid again.	The Last Artisan of the Digital Forge	2026-01-29 08:34:19.839	2026-01-29 08:38:27.008	\N	1	1	en
+33	kv5pvitbhbnwr93y2cvnhqde	O Último Artesão da Forja Digital	the-last-artisan-of-the-digital-forge	Um desenvolvedor experiente enfrenta a maré implacável da IA generativa, lutando para provar que a intuição e o conhecimento profundo ainda têm valor em um mundo de código instantâneo.	O cursor piscava, um pulso digital constante contra o fundo escuro da IDE de Elias. Um texto fantasmagórico, cinza e itálico, flutuava à frente de sua própria digitação — uma sugestão da mente da máquina. Era bom. Assustadoramente bom. Antecipava seus nomes de variáveis, suas estruturas lógicas. Era como ter um aprendiz brilhante e excessivamente ansioso perpetuamente debruçado sobre seu ombro.\n\nElias suspirou e apertou `Esc`, banindo o código espectral. — Hoje não, Hal — murmurou.\n\nEle programava há vinte anos. Lembrava-se de manuais técnicos grossos o suficiente para nocautearem um invasor, dos ruídos de conexão dos modems dial-up e do triunfo bruto de fazer uma máquina obedecer. Agora, os desenvolvedores juniores entregavam funcionalidades em horas que antes levavam dias, com códigos que pareciam colchas de retalhos costuradas por grandes modelos de linguagem. Eles eram rápidos, sim. Mas será que entendiam o tecido que estavam tecendo?\n\nO teste real veio com o ticket #849: um *Heisenbug* no motor central de transações. Clientes estavam sendo cobrados duas vezes em intervalos aleatórios. O canal da equipe no Slack brilhava com trechos gerados por IA. "Tente este mutex lock", disse um. "O GPT sugere envolver isso em um bloco de transação", disse outro.\n\nEram soluções de reboco para uma rachadura estrutural.\n\nElias se isolou. Desligou os assistentes de IA. Fechou as janelas de chat. Mergulhou na base de código legada, uma catedral de lógica vasta e bagunçada, construída por mãos que já haviam partido há muito tempo. Ele não apenas leu o código; sentiu o ritmo dele, rastreando as intenções de seus arquitetos originais.\n\nAs horas sangraram pela noite adentro. Seu café esfriou. Finalmente, nas profundezas de um módulo esquecido relacionado a conversões de fuso horário, ele encontrou. Uma condição de corrida sutil, acionada apenas durante segundos bissextos — um caso isolado que nenhum dado de treinamento geral priorizaria. As ferramentas de IA sugeriram remediar os sintomas; Elias encontrou a doença.\n\nEle escreveu a correção: dez linhas elegantes de C++. Sem excessos. Sem geração automática. Apenas compreensão humana pura e destilada.\n\nEle enviou o *commit*. Os testes automatizados ficaram verdes. O erro desapareceu.\n\nElias recostou-se na cadeira, o zumbido do computador um conforto familiar na sala silenciosa. A IA era um motor poderoso, inegável e implacável. Mas, naquela noite, ele lembrou a si mesmo que alguém ainda precisava saber como pilotar. Ele não estava lutando contra a corrente; estava aprendendo a ser um capitão melhor. O chão sob seus pés parecia sólido novamente.	O Último Artesão da Forja Digital	2026-01-29 08:36:15.401	2026-01-29 08:38:57.338	\N	1	1	pt-BR
 \.
 
 
@@ -2691,6 +2693,10 @@ COPY public.blogs_tags_lnk (id, blog_id, tag_id, tag_ord, blog_ord) FROM stdin;
 38	29	16	1	2
 40	30	12	1	3
 41	31	9	1	3
+42	32	13	1	4
+43	32	3	2	3
+44	33	15	1	4
+45	33	4	2	3
 \.
 
 
@@ -2710,6 +2716,7 @@ COPY public.files (id, document_id, name, alternative_text, caption, width, heig
 10	sjgxhau258fmdlnabzu6nyeo	hard-plants-01.png	\N	\N	1408	768	{"large": {"ext": ".png", "url": "/uploads/large_hard_plants_01_151c087cea.png", "hash": "large_hard_plants_01_151c087cea", "mime": "image/png", "name": "large_hard-plants-01.png", "path": null, "size": 1245.09, "width": 1000, "height": 545, "sizeInBytes": 1245092}, "small": {"ext": ".png", "url": "/uploads/small_hard_plants_01_151c087cea.png", "hash": "small_hard_plants_01_151c087cea", "mime": "image/png", "name": "small_hard-plants-01.png", "path": null, "size": 324.93, "width": 500, "height": 273, "sizeInBytes": 324928}, "medium": {"ext": ".png", "url": "/uploads/medium_hard_plants_01_151c087cea.png", "hash": "medium_hard_plants_01_151c087cea", "mime": "image/png", "name": "medium_hard-plants-01.png", "path": null, "size": 713.21, "width": 750, "height": 409, "sizeInBytes": 713211}, "thumbnail": {"ext": ".png", "url": "/uploads/thumbnail_hard_plants_01_151c087cea.png", "hash": "thumbnail_hard_plants_01_151c087cea", "mime": "image/png", "name": "thumbnail_hard-plants-01.png", "path": null, "size": 82.64, "width": 245, "height": 134, "sizeInBytes": 82644}}	hard_plants_01_151c087cea	.png	image/png	607.23	/uploads/hard_plants_01_151c087cea.png	\N	local	\N	/2/4	2026-01-27 10:39:54.653	2026-01-27 10:40:10.033	2026-01-27 10:39:54.654	1	1	\N
 11	dzt9waq4h3d7td1tf2o0491s	the-inheritor-of-stars_cover.png	\N	\N	1024	1024	{"large": {"ext": ".png", "url": "/uploads/large_the_inheritor_of_stars_cover_b12eb2566e.png", "hash": "large_the_inheritor_of_stars_cover_b12eb2566e", "mime": "image/png", "name": "large_the-inheritor-of-stars_cover.png", "path": null, "size": 1972.04, "width": 1000, "height": 1000, "sizeInBytes": 1972036}, "small": {"ext": ".png", "url": "/uploads/small_the_inheritor_of_stars_cover_b12eb2566e.png", "hash": "small_the_inheritor_of_stars_cover_b12eb2566e", "mime": "image/png", "name": "small_the-inheritor-of-stars_cover.png", "path": null, "size": 545.71, "width": 500, "height": 500, "sizeInBytes": 545713}, "medium": {"ext": ".png", "url": "/uploads/medium_the_inheritor_of_stars_cover_b12eb2566e.png", "hash": "medium_the_inheritor_of_stars_cover_b12eb2566e", "mime": "image/png", "name": "medium_the-inheritor-of-stars_cover.png", "path": null, "size": 1180.61, "width": 750, "height": 750, "sizeInBytes": 1180612}, "thumbnail": {"ext": ".png", "url": "/uploads/thumbnail_the_inheritor_of_stars_cover_b12eb2566e.png", "hash": "thumbnail_the_inheritor_of_stars_cover_b12eb2566e", "mime": "image/png", "name": "thumbnail_the-inheritor-of-stars_cover.png", "path": null, "size": 60.26, "width": 156, "height": 156, "sizeInBytes": 60261}}	the_inheritor_of_stars_cover_b12eb2566e	.png	image/png	554.55	/uploads/the_inheritor_of_stars_cover_b12eb2566e.png	\N	local	\N	/2/5	2026-01-27 10:55:31.712	2026-01-27 10:55:31.712	2026-01-27 10:55:31.712	1	1	\N
 12	ppf982xa5fjjc8a07kuz1r8w	the-algorithm-that-ruled-the-world_cover.png	\N	\N	1024	1536	{"large": {"ext": ".png", "url": "/uploads/large_the_algorithm_that_ruled_the_world_cover_adf53d94e5.png", "hash": "large_the_algorithm_that_ruled_the_world_cover_adf53d94e5", "mime": "image/png", "name": "large_the-algorithm-that-ruled-the-world_cover.png", "path": null, "size": 800.18, "width": 667, "height": 1000, "sizeInBytes": 800175}, "small": {"ext": ".png", "url": "/uploads/small_the_algorithm_that_ruled_the_world_cover_adf53d94e5.png", "hash": "small_the_algorithm_that_ruled_the_world_cover_adf53d94e5", "mime": "image/png", "name": "small_the-algorithm-that-ruled-the-world_cover.png", "path": null, "size": 187.95, "width": 333, "height": 500, "sizeInBytes": 187950}, "medium": {"ext": ".png", "url": "/uploads/medium_the_algorithm_that_ruled_the_world_cover_adf53d94e5.png", "hash": "medium_the_algorithm_that_ruled_the_world_cover_adf53d94e5", "mime": "image/png", "name": "medium_the-algorithm-that-ruled-the-world_cover.png", "path": null, "size": 440.4, "width": 500, "height": 750, "sizeInBytes": 440400}, "thumbnail": {"ext": ".png", "url": "/uploads/thumbnail_the_algorithm_that_ruled_the_world_cover_adf53d94e5.png", "hash": "thumbnail_the_algorithm_that_ruled_the_world_cover_adf53d94e5", "mime": "image/png", "name": "thumbnail_the-algorithm-that-ruled-the-world_cover.png", "path": null, "size": 20.76, "width": 104, "height": 156, "sizeInBytes": 20762}}	the_algorithm_that_ruled_the_world_cover_adf53d94e5	.png	image/png	405.13	/uploads/the_algorithm_that_ruled_the_world_cover_adf53d94e5.png	\N	local	\N	/2/6	2026-01-27 11:02:42.961	2026-01-27 11:02:42.961	2026-01-27 11:02:42.961	1	1	\N
+13	dfb8gqgeavjh66tndmrpckt0	the-last-artisan-of-the-digital-forge.png	\N	\N	1408	768	{"large": {"ext": ".png", "url": "/uploads/large_the_last_artisan_of_the_digital_forge_80c365feac.png", "hash": "large_the_last_artisan_of_the_digital_forge_80c365feac", "mime": "image/png", "name": "large_the-last-artisan-of-the-digital-forge.png", "path": null, "size": 1114.75, "width": 1000, "height": 545, "sizeInBytes": 1114753}, "small": {"ext": ".png", "url": "/uploads/small_the_last_artisan_of_the_digital_forge_80c365feac.png", "hash": "small_the_last_artisan_of_the_digital_forge_80c365feac", "mime": "image/png", "name": "small_the-last-artisan-of-the-digital-forge.png", "path": null, "size": 282.25, "width": 500, "height": 273, "sizeInBytes": 282251}, "medium": {"ext": ".png", "url": "/uploads/medium_the_last_artisan_of_the_digital_forge_80c365feac.png", "hash": "medium_the_last_artisan_of_the_digital_forge_80c365feac", "mime": "image/png", "name": "medium_the-last-artisan-of-the-digital-forge.png", "path": null, "size": 629.86, "width": 750, "height": 409, "sizeInBytes": 629862}, "thumbnail": {"ext": ".png", "url": "/uploads/thumbnail_the_last_artisan_of_the_digital_forge_80c365feac.png", "hash": "thumbnail_the_last_artisan_of_the_digital_forge_80c365feac", "mime": "image/png", "name": "thumbnail_the-last-artisan-of-the-digital-forge.png", "path": null, "size": 71.72, "width": 245, "height": 134, "sizeInBytes": 71722}}	the_last_artisan_of_the_digital_forge_80c365feac	.png	image/png	591.31	/uploads/the_last_artisan_of_the_digital_forge_80c365feac.png	\N	local	\N	/2/7	2026-01-29 08:38:18.189	2026-01-29 08:38:50.958	2026-01-29 08:38:18.19	1	1	\N
 \.
 
 
@@ -2729,6 +2736,7 @@ COPY public.files_folder_lnk (id, file_id, folder_id, file_ord) FROM stdin;
 12	10	4	3
 14	11	5	1
 15	12	6	1
+16	13	7	1
 \.
 
 
@@ -2764,6 +2772,8 @@ COPY public.files_related_mph (id, file_id, related_id, related_type, field, "or
 37	11	28	api::blog.blog	cover	1
 38	11	21	api::blog.blog	cover	1
 39	11	29	api::blog.blog	cover	1
+40	13	32	api::blog.blog	cover	1
+41	13	33	api::blog.blog	cover	1
 \.
 
 
@@ -2957,8 +2967,9 @@ COPY public.strapi_sessions (id, document_id, user_id, session_id, child_id, dev
 16	dz8hsauou2s6hrzodl9dxtzm	1	2ead4f564ef25a8f5c0f2e2892c57492	\N	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 12:38:34.066	2026-02-25 08:48:37.207	active	refresh	2026-01-28 12:38:34.067	2026-01-28 12:38:34.067	2026-01-28 12:38:34.068	\N	\N	\N
 15	ey9v12zjxlggzz54kir3lkt7	1	b9ea8412d046c1986d6542bab0079e2e	2ead4f564ef25a8f5c0f2e2892c57492	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-10 11:39:48.047	2026-02-25 08:48:37.207	rotated	refresh	2026-01-27 11:39:48.048	2026-01-28 12:38:34.075	2026-01-27 11:39:48.05	\N	\N	\N
 17	l3u1vm19ccqaaeennfk2mltt	1	a58a5f5f35672453f2ac07048aed0ecd	9a4ff9f92aa1b6c1f011bf93fc9cae56	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 14:06:13.311	2026-02-27 14:06:13.311	rotated	refresh	2026-01-28 14:06:13.311	2026-01-28 15:31:24.403	2026-01-28 14:06:13.312	\N	\N	\N
-19	tmpoxahe052ccos2i246akt4	1	5ecc4a236d3274f39b11140e56038f57	\N	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 16:08:50.165	2026-02-27 14:06:13.311	active	refresh	2026-01-28 16:08:50.165	2026-01-28 16:08:50.165	2026-01-28 16:08:50.166	\N	\N	\N
 18	efl50ucygk86t71c4a1ydbbx	1	9a4ff9f92aa1b6c1f011bf93fc9cae56	5ecc4a236d3274f39b11140e56038f57	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 15:31:24.389	2026-02-27 14:06:13.311	rotated	refresh	2026-01-28 15:31:24.39	2026-01-28 16:08:50.173	2026-01-28 15:31:24.391	\N	\N	\N
+20	z9kfs8r4m6mok2syryeqgudg	1	553e18664e88c022d86096b0235947f1	\N	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-12 08:29:36.746	2026-02-27 14:06:13.311	active	refresh	2026-01-29 08:29:36.746	2026-01-29 08:29:36.746	2026-01-29 08:29:36.748	\N	\N	\N
+19	tmpoxahe052ccos2i246akt4	1	5ecc4a236d3274f39b11140e56038f57	553e18664e88c022d86096b0235947f1	e96c7303-fb17-430b-92cc-3a4b2840718a	admin	2026-02-11 16:08:50.165	2026-02-27 14:06:13.311	rotated	refresh	2026-01-28 16:08:50.165	2026-01-29 08:29:36.755	2026-01-28 16:08:50.166	\N	\N	\N
 \.
 
 
@@ -3147,6 +3158,7 @@ COPY public.upload_folders (id, document_id, name, path_id, path, created_at, up
 4	e3v1xnzg3b88ms7f0igb3f7t	adulting-is-hard-plants-make-it-better	4	/2/4	2026-01-27 10:39:34.212	2026-01-27 10:39:34.212	2026-01-27 10:39:34.212	1	1	\N
 5	w9lif0ehryys2ytolb776xcj	the-inheritor-of-stars	5	/2/5	2026-01-27 10:55:16.552	2026-01-27 10:55:16.552	2026-01-27 10:55:16.552	1	1	\N
 6	wzsxgeje54ovrcofdqnk2oq0	the-algorithm-that-ruled-the-world	6	/2/6	2026-01-27 11:02:33.333	2026-01-27 11:02:33.333	2026-01-27 11:02:33.333	1	1	\N
+7	gmaco78njk8qibo9a68ichwf	the-last-artisan-of-the-digital-forge	7	/2/7	2026-01-29 08:38:07.451	2026-01-29 08:38:07.451	2026-01-29 08:38:07.452	1	1	\N
 \.
 
 
@@ -3159,6 +3171,7 @@ COPY public.upload_folders_parent_lnk (id, folder_id, inv_folder_id, folder_ord)
 2	4	2	2
 3	5	2	3
 4	6	2	4
+5	7	2	5
 \.
 
 
@@ -3201,35 +3214,35 @@ SELECT pg_catalog.setval('public.admin_users_roles_lnk_id_seq', 1, true);
 -- Name: blogs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.blogs_id_seq', 31, true);
+SELECT pg_catalog.setval('public.blogs_id_seq', 33, true);
 
 
 --
 -- Name: blogs_tags_lnk_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.blogs_tags_lnk_id_seq', 41, true);
+SELECT pg_catalog.setval('public.blogs_tags_lnk_id_seq', 45, true);
 
 
 --
 -- Name: files_folder_lnk_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.files_folder_lnk_id_seq', 15, true);
+SELECT pg_catalog.setval('public.files_folder_lnk_id_seq', 17, true);
 
 
 --
 -- Name: files_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.files_id_seq', 12, true);
+SELECT pg_catalog.setval('public.files_id_seq', 13, true);
 
 
 --
 -- Name: files_related_mph_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.files_related_mph_id_seq', 39, true);
+SELECT pg_catalog.setval('public.files_related_mph_id_seq', 41, true);
 
 
 --
@@ -3334,7 +3347,7 @@ SELECT pg_catalog.setval('public.strapi_releases_id_seq', 1, false);
 -- Name: strapi_sessions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.strapi_sessions_id_seq', 19, true);
+SELECT pg_catalog.setval('public.strapi_sessions_id_seq', 20, true);
 
 
 --
@@ -3446,14 +3459,14 @@ SELECT pg_catalog.setval('public.up_users_role_lnk_id_seq', 1, false);
 -- Name: upload_folders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.upload_folders_id_seq', 6, true);
+SELECT pg_catalog.setval('public.upload_folders_id_seq', 7, true);
 
 
 --
 -- Name: upload_folders_parent_lnk_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.upload_folders_parent_lnk_id_seq', 4, true);
+SELECT pg_catalog.setval('public.upload_folders_parent_lnk_id_seq', 5, true);
 
 
 --
@@ -5267,5 +5280,5 @@ ALTER TABLE ONLY public.upload_folders
 -- PostgreSQL database dump complete
 --
 
-\unrestrict An1fSrwj6q3PQp85hBwJZtqcNmN43l5ppEzKOxvzXxYrAX9ph7n79pFI369HBDl
+\unrestrict cTt6xxZkw8gzOzdymVO6fttfRPHVOT2c7I6S8KWpuCNotX71wMcu2R8fIvh0YLY
 
