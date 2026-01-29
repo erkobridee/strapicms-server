@@ -20,3 +20,25 @@ TODO: check
 - [How to Customize the Strapi Back-end Using TypeScript | DEV Community](https://dev.to/strapi/how-to-customize-the-strapi-back-end-services-routes-controllers-queries-using-typescript-26oj)
 
   - [How to Customize the Strapi Back-end (Services, Routes, Controllers, Queries) using TypeScript | Strapi Blog](https://strapi.io/blog/how-to-customize-the-strapi-back-end-using-typescript)
+
+## Cache
+
+- [Strapi REST Cache Plugin Now Supports Strapi v5 | Strapi Blog](https://strapi.io/blog/strapi-rest-cache-plugin-now-supports-strapi-v5)
+
+  - [Installation | REST Cache](https://strapi-community.github.io/plugin-rest-cache/guide/installation.html)
+
+  - [[GitHub] strapi-community/plugin-rest-cache](https://github.com/strapi-community/plugin-rest-cache) - Speed-up HTTP requests with LRU cache.
+
+    ```shell
+    npm i -S keyv@5.5.0 @strapi-community/plugin-rest-cache
+    ```
+
+    Redis provider
+
+    ```shell
+    npm i -S @strapi-community/plugin-redis @strapi-community/provider-rest-cache-redis
+    ```
+
+    - [Setting Up Redis with Docker: A Step-by-Step Guide | DEV Community](https://dev.to/yousufbasir/setting-up-redis-with-docker-a-step-by-step-guide-3g2h)
+
+    - [Setting Up Redis with Docker Compose | Sliplane](https://sliplane.io/blog/setting-up-redis-with-docker-compose)
