@@ -30,6 +30,16 @@ npm run dev
 http://localhost:1337
 ```
 
+---
+
+- [Upgrade tool | Strapi Blog](https://docs.strapi.io/cms/upgrade-tool)
+
+  - [Upgrade to the latest version](https://docs.strapi.io/cms/upgrade-tool#upgrade-to-the-latest-version)
+
+    ```shell
+    npx @strapi/upgrade latest
+    ```
+
 ## Docs
 
 - [Project Setup](docs/01_setup.md)
