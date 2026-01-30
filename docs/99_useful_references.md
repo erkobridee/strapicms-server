@@ -21,7 +21,17 @@ TODO: check
 
   - [How to Customize the Strapi Back-end (Services, Routes, Controllers, Queries) using TypeScript | Strapi Blog](https://strapi.io/blog/how-to-customize-the-strapi-back-end-using-typescript)
 
-## Cache
+- [How to Create a Custom API Endpoint in Strapi? | Strapi Blog](https://strapi.io/blog/how-to-create-a-custom-api-endpoint-in-strapi)
+
+  - [[GitHub] hubertnare/strapi5-custom-api-endpoint](https://github.com/hubertnare/strapi5-custom-api-endpoint)
+
+    - [src/api/content-summary](https://github.com/hubertnare/strapi5-custom-api-endpoint/tree/d756156ebbd7b6ae5202bab20fa23f2f7e724d50/src/api/content-summary)
+
+## Performance
+
+- [6 Performance Mistakes in Strapi and Next.js Apps (and How to Fix Them) | Strapi Blog](https://strapi.io/blog/performance-mistakes-strapi-nextjs-apps)
+
+### Cache
 
 - [Strapi REST Cache Plugin Now Supports Strapi v5 | Strapi Blog](https://strapi.io/blog/strapi-rest-cache-plugin-now-supports-strapi-v5)
 
