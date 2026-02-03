@@ -2,6 +2,8 @@
 
 Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
 
+- [Enterprise Edition](https://strapi.io/enterprise)
+
 - [CMS Docs](https://docs.strapi.io/cms/intro)
 
   - [CMS Pricing](https://strapi.io/pricing-cms)
