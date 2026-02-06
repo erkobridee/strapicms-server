@@ -76,8 +76,36 @@ http://localhost:1337
 
     - [Supports Markdown content](https://docs.strapi.io/cms/features/content-type-builder#rich-text-markdown), but the UI component to edit it provides a simple support
 
-      - For advance support it would be needed to install (or define a) plugin ( [CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor) | [Markdown Editor](https://market.strapi.io/plugins/strapi-plugin-wysiwyg-react-md-editor) ) [ Regarding defining a plugin, it would be intersting to explore the usage of [MDXEditor](https://mdxeditor.dev/) ]
-
 - Improve performance
 
   - Install/Configure a [caching support](docs/99_useful_references.md#cache)
+
+## Create a plugin for Strapi 5
+
+- [Plugin creation & setup | Strapi Docs](https://docs.strapi.io/cms/plugins-development/create-a-plugin)
+
+- [Plugin structure | Strapi Docs](https://docs.strapi.io/cms/plugins-development/plugin-structure)
+
+- [How To Build Your First Strapi 5 Plugin | Strapi Blog](https://strapi.io/blog/how-to-build-your-first-strapi-5-plugin)
+
+- [How to Build a Strapi Plugin That Extends the Admin and Backend | Strapi Blog](https://strapi.io/blog/how-to-build-a-strapi-plugin-that-extends-the-admin-and-backend)
+
+## MDXEditor
+
+- [MDXEditor](https://mdxeditor.dev/)
+
+- [[GitHub] mdx-editor/editor](https://github.com/mdx-editor/editor) - A rich text editor React component for markdown
+
+- [how to create a custom field at Strapi 5 using the MDXEditor | Perplexity.ai](https://www.perplexity.ai/search/how-to-create-a-custom-field-a-s1VRWA1QTgO6QX119oS9Mg#0)
+
+- [[GitHub] floatrx/strapi-wysiwyg-mdxeditor-plugin](https://github.com/floatrx/strapi-wysiwyg-mdxeditor-plugin) - MdxEditor Wysiwyg editor for Strapi v4
+
+  - [How to change the WYSIWYG in Strapi | Strapi Blog]
+
+  - [helper-plugin removed | Strapi Docs](https://docs.strapi.io/cms/migration/v4-to-v5/breaking-changes/helper-plugin-deprecated)
+
+  - [The Strapi Design System has been upgraded to v2 | Strapi Docs](https://docs.strapi.io/cms/migration/v4-to-v5/breaking-changes/design-system)
+
+  - [Strapi v4 to Strapi 5 breaking changes | Strapi Docs](https://docs.strapi.io/cms/migration/v4-to-v5/breaking-changes)
+
+  - [Replacing wysiwyg editor with a custom one doesn't work in Strapi 5 · Issue #2374 · strapi/documentation](https://github.com/strapi/documentation/issues/2374#issuecomment-2637614462)
