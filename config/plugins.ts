@@ -5,6 +5,12 @@
 // https://strapi-community.github.io/plugin-rest-cache/guide/provider/redis.html
 
 export default ({ env }) => ({
+
+  wysiwyg: {
+    enabled: true,
+    resolve: './src/plugins/wysiwyg',
+  },
+
   // https://github.com/strapi-community/plugin-redis
   redis: {
     config: {
@@ -52,5 +58,5 @@ export default ({ env }) => ({
         ],
       },
     },
-  },
+  }
 });
