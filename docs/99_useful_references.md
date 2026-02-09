@@ -1,12 +1,5 @@
 🔙 [README.md](../README.md)
 
-<!--
-
-TODO: check
-  https://docs.strapi.io/cms/backend-customization/models
-
--->
-
 # Useful references
 
 - [Strapi vs Storyblok | Strapi.io](https://strapi.io/headless-cms/comparison/strapi-vs-storyblok)
