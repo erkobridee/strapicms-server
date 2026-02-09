@@ -15,7 +15,7 @@ TODO: check
 
 - [What is Strapi CMS? Build Anything with this Flexible Headless CMS | WPSteroids.com](https://wpsteroids.com/technology/strapi-cms/)
 
-- [Let's learn how to customize Strapi Admin Dashbouard| Strapi Blog](https://strapi.io/blog/how-to-build-a-truck-tracker-custom-field-and-map-widget-for-strapi-admin)
+- [Let's learn how to customize Strapi Admin Dashboard | Strapi Blog](https://strapi.io/blog/how-to-build-a-truck-tracker-custom-field-and-map-widget-for-strapi-admin)
 
 - [How to Customize the Strapi Back-end Using TypeScript | DEV Community](https://dev.to/strapi/how-to-customize-the-strapi-back-end-services-routes-controllers-queries-using-typescript-26oj)
 
@@ -28,6 +28,8 @@ TODO: check
     - [src/api/content-summary](https://github.com/hubertnare/strapi5-custom-api-endpoint/tree/d756156ebbd7b6ae5202bab20fa23f2f7e724d50/src/api/content-summary)
 
 - [[GitHub] VirtusLab-Open-Source/strapi-plugin-navigation](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation) - A plugin for Strapi Headless CMS that provides navigation / menu builder feature with their possibility to control the audience and different output structure renderers like (flat, tree and RFR - ready for handling by Redux First Router)
+
+- [Build a Blog Using Strapi and Next.js | Strapi Blog](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi)
 
 ## Performance
 
@@ -57,9 +59,15 @@ TODO: check
 
 ## Webhooks
 
+- [Webhooks | Strapi Docs](https://docs.strapi.io/cms/backend-customization/webhooks)
+
 - [Webhooks explained and how to use them in Strapi | Strapi Blog](https://strapi.io/blog/webhooks)
 
+- [What Are Webhooks? A Developer’s Guide | Strapi Blog](https://strapi.io/blog/what-are-webhooks)
+
 - [Trigger Deployments Using Vercel Deploy Hook and Strapi Webhook | Strapi Blog](https://strapi.io/blog/trigger-deployments-using-vercel-deploy-hook-and-strapi-webhook)
+
+- [How to Create an SSG (Static Site Generation) Application with Strapi Webhooks and NextJs | Strapi Blog](https://strapi.io/blog/how-to-create-an-ssg-static-site-generation-application-with-strapi-webhooks-and-nextjs)
 
 ## GitHub Workflows
 
