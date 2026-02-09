@@ -78,6 +78,8 @@ http://localhost:1337
 
       - For advance support I have used the plugin [CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor)
 
+        - To add images, it should be done on the edit view, not on the source view
+
         - [[GitHub] nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor) - Integrates CKEditor 5 into your Strapi project as a fully customizable custom field.
 
           - [Error: Could not find Custom Field: plugin::ckeditor5.CKEditor · Issue #239 · nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor/issues/239#issuecomment-3861176792)
