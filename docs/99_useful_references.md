@@ -27,9 +27,21 @@ TODO: check
 
     - [src/api/content-summary](https://github.com/hubertnare/strapi5-custom-api-endpoint/tree/d756156ebbd7b6ae5202bab20fa23f2f7e724d50/src/api/content-summary)
 
+- [Build a Blog Using Strapi and Next.js | Strapi Blog](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi)
+
+## Plugin
+
 - [[GitHub] VirtusLab-Open-Source/strapi-plugin-navigation](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation) - A plugin for Strapi Headless CMS that provides navigation / menu builder feature with their possibility to control the audience and different output structure renderers like (flat, tree and RFR - ready for handling by Redux First Router)
 
-- [Build a Blog Using Strapi and Next.js | Strapi Blog](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi)
+- [Let's Build A Strapi 5 Plugin | Strapi Blog](https://strapi.io/blog/how-to-build-your-first-strapi-5-plugin)
+
+- [Build a Custom Strapi Plugin with Medium and Dev.to APIs - Part 1 | Strapi Blog](https://strapi.io/blog/build-a-custom-strapi-plugin-with-medium-and-devto-apis-part1)
+
+  - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-1](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-1)
+
+- [Build a Custom Strapi Plugin with Medium and Dev.to APIs - Part 2 | Strapi Blog](https://strapi.io/blog/build-a-custom-strapi-plugin-with-medium-and-devto-apis-part2)
+
+  - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-2](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-2)
 
 ## Performance
 
