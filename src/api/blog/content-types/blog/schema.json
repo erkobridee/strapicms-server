@@ -43,11 +43,15 @@
       }
     },
     "body": {
-      "type": "richtext",
+      "type": "customField",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultMarkdown"
       },
       "required": true
     },
@@ -75,18 +79,6 @@
         "i18n": {
           "localized": true
         }
-      }
-    },
-    "content": {
-      "type": "customField",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "customField": "plugin::ckeditor5.CKEditor",
-      "options": {
-        "preset": "defaultMarkdown"
       }
     }
   }
