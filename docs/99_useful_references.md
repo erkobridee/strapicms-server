@@ -29,7 +29,17 @@ TODO: check
 
 - [Build a Blog Using Strapi and Next.js | Strapi Blog](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi)
 
+- [Epic Next.js 15 Tutorial Part 1: Learn Next.js by building a real-life project | Strapi Blog](https://strapi.io/blog/epic-next-js-15-tutorial-part-1-learn-next-js-by-building-a-real-life-project)
+
+  - [[GitHub] PaulBratslavsky/epic-next-15-strapi-5](https://github.com/PaulBratslavsky/epic-next-15-strapi-5)
+
+  - [Epic Next.js 15 Tutorial Part 9: Backend Deployment To Strapi Cloud | Strapi Blog](https://strapi.io/blog/epic-next-js-15-tutorial-part-9-backend-deployment-to-strapi-cloud)
+
+  - [[GitHub] PaulBratslavsky/next-strapi-app-qa](https://github.com/PaulBratslavsky/next-strapi-app-qa)
+
 ## Plugin
+
+- [Plugins | Strapi Market](https://market.strapi.io/)
 
 - [[GitHub] VirtusLab-Open-Source/strapi-plugin-navigation](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation) - A plugin for Strapi Headless CMS that provides navigation / menu builder feature with their possibility to control the audience and different output structure renderers like (flat, tree and RFR - ready for handling by Redux First Router)
 
