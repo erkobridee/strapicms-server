@@ -76,46 +76,12 @@ http://localhost:1337
 
     - [Supports Markdown content](https://docs.strapi.io/cms/features/content-type-builder#rich-text-markdown), but the UI component to edit it provides a simple support
 
-      - For advance support it would be needed to install (or define a) plugin ( [CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor) | [Markdown Editor](https://market.strapi.io/plugins/strapi-plugin-wysiwyg-react-md-editor) ) [ Regarding defining a plugin, it would be intersting to explore the usage of [MDXEditor](https://mdxeditor.dev/) ]
+      - For advance support I have used the plugin [CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor)
+
+        - [[GitHub] nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor) - Integrates CKEditor 5 into your Strapi project as a fully customizable custom field.
+
+          - [Error: Could not find Custom Field: plugin::ckeditor5.CKEditor · Issue #239 · nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor/issues/239#issuecomment-3861176792)
 
 - Improve performance
 
   - Install/Configure a [caching support](docs/99_useful_references.md#cache)
-
-## Testing the CKEditor 5
-
-[CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor)
-
-### Issue
-
-I got an error when trying to add it as a field to a content type and save the changes
-
-```
-⠼ Loading Strapi[2026-02-06 11:19:48.775] error: Schema creation failed: Failed to create schema api::blog.blog
-[ERROR]  There seems to be an unexpected error, try again with --debug for more information
-
-┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                                                                                                         │
-│   Error: Could not find Custom Field: plugin::ckeditor5.CKEditor                                                                        │
-│   at Object.get (/development/strapicms-server/node_modules/@strapi/core/dist/registries/custom-fields.js:32:23)                        │
-│   at mapAttributeToSchema                                                                                                               │
-│   (/development/strapicms-server/node_modules/@strapi/core/dist/core-api/routes/validation/mappers.js:148:77)                           │
-│   at get content                                                                                                                        │
-│   (/development/strapicms-server/node_modules/@strapi/core/dist/core-api/routes/validation/mappers.js:48:24)                            │
-│   at get shape                                                                                                                          │
-│   (/development/strapicms-server/node_modules/@strapi/core/node_modules/zod/dist/cjs/v4/core/util.js:373:59)                            │
-│   at Object.extend                                                                                                                      │
-│   (/development/strapicms-server/node_modules/@strapi/core/node_modules/zod/dist/cjs/v4/core/util.js:371:24)                            │
-│   at inst.extend                                                                                                                        │
-│   (/development/strapicms-server/node_modules/@strapi/core/node_modules/zod/dist/cjs/v4/classic/schemas.js:594:28)                      │
-│   at /development/strapicms-server/node_modules/@strapi/core/dist/core-api/routes/validation/mappers.js:46:20                           │
-│   at Array.reduce (<anonymous>)                                                                                                         │
-│   at Object.createAttributesSchema                                                                                                      │
-│   (/development/strapicms-server/node_modules/@strapi/core/dist/core-api/routes/validation/mappers.js:45:23)                            │
-│   at get document                                                                                                                       │
-│   (/development/strapicms-server/node_modules/@strapi/core/dist/core-api/routes/validation/content-type.js:81:42)                       │
-│                                                                                                                                         │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-Bug reported: [Error: Could not find Custom Field: plugin::ckeditor5.CKEditor · Issue #239 · nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor/issues/239)
