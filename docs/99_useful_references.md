@@ -67,6 +67,8 @@ TODO: check
 
 - [Trigger Deployments Using Vercel Deploy Hook and Strapi Webhook | Strapi Blog](https://strapi.io/blog/trigger-deployments-using-vercel-deploy-hook-and-strapi-webhook)
 
+  - [[GitHub] Theodore-Kelechukwu-Onyejiaku/astro-strapi-tutorial](https://github.com/Theodore-Kelechukwu-Onyejiaku/astro-strapi-tutorial)
+
 - [How to Create an SSG (Static Site Generation) Application with Strapi Webhooks and NextJs | Strapi Blog](https://strapi.io/blog/how-to-create-an-ssg-static-site-generation-application-with-strapi-webhooks-and-nextjs)
 
 ## GitHub Workflows
