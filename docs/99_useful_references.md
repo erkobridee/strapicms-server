@@ -27,6 +27,8 @@ TODO: check
 
     - [src/api/content-summary](https://github.com/hubertnare/strapi5-custom-api-endpoint/tree/d756156ebbd7b6ae5202bab20fa23f2f7e724d50/src/api/content-summary)
 
+- [[GitHub] VirtusLab-Open-Source/strapi-plugin-navigation](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation) - A plugin for Strapi Headless CMS that provides navigation / menu builder feature with their possibility to control the audience and different output structure renderers like (flat, tree and RFR - ready for handling by Redux First Router)
+
 ## Performance
 
 - [6 Performance Mistakes in Strapi and Next.js Apps (and How to Fix Them) | Strapi Blog](https://strapi.io/blog/performance-mistakes-strapi-nextjs-apps)

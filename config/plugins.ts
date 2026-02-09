@@ -5,6 +5,8 @@
 // https://strapi-community.github.io/plugin-rest-cache/guide/provider/redis.html
 
 export default ({ env }) => ({
+  ckeditor5: { enabled: true },
+
   // https://github.com/strapi-community/plugin-redis
   redis: {
     config: {

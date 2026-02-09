@@ -76,7 +76,13 @@ http://localhost:1337
 
     - [Supports Markdown content](https://docs.strapi.io/cms/features/content-type-builder#rich-text-markdown), but the UI component to edit it provides a simple support
 
-      - For advance support it would be needed to install (or define a) plugin ( [CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor) | [Markdown Editor](https://market.strapi.io/plugins/strapi-plugin-wysiwyg-react-md-editor) ) [ Regarding defining a plugin, it would be intersting to explore the usage of [MDXEditor](https://mdxeditor.dev/) ]
+      - For advance support I have used the plugin [CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor)
+
+        - To add images, it should be done on the edit view, not on the source view
+
+        - [[GitHub] nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor) - Integrates CKEditor 5 into your Strapi project as a fully customizable custom field.
+
+          - [Error: Could not find Custom Field: plugin::ckeditor5.CKEditor · Issue #239 · nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor/issues/239#issuecomment-3861176792)
 
 - Improve performance
 
