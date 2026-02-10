@@ -1,1 +1,8 @@
-{}
+{
+  "github-action-dispatch": {
+    "plugin": {
+      "name": "GitHub Action Dispatch",
+      "description": "Make it possible to dispatch an event into a specific GitHub repository"
+    }
+  }
+}
