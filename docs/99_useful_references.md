@@ -30,6 +30,9 @@
 
   - [[GitHub] PaulBratslavsky/next-strapi-app-qa](https://github.com/PaulBratslavsky/next-strapi-app-qa)
 
+- [[GitHub] SuriyaRamesh/strapi-starter-local-setup](https://github.com/SuriyaRamesh/strapi-starter-local-setup) - Strapi Starter Next 14, Tailwind, Typescript and Strapi
+
+
 ## Command Line Interface (CLI)
 
 - [Command Line Interface (CLI) | Strapi Docs](https://docs.strapi.io/cms/cli)
@@ -57,6 +60,8 @@
 - [Build a Custom Strapi Plugin with Medium and Dev.to APIs - Part 2 | Strapi Blog](https://strapi.io/blog/build-a-custom-strapi-plugin-with-medium-and-devto-apis-part2)
 
   - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-2](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-2)
+
+- [how to I create a local strapi plugin that allows me to deploy it at the strapi cloud | Perplexity.ai](https://www.perplexity.ai/search/how-to-i-create-a-local-strapi-GVcIFfHMQ2qVflKxaMSlkg)
 
 ## Performance
 
