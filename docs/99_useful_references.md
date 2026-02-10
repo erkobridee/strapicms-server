@@ -1,12 +1,5 @@
 🔙 [README.md](../README.md)
 
-<!--
-
-TODO: check
-  https://docs.strapi.io/cms/backend-customization/models
-
--->
-
 # Useful references
 
 - [Strapi vs Storyblok | Strapi.io](https://strapi.io/headless-cms/comparison/strapi-vs-storyblok)
@@ -27,9 +20,43 @@ TODO: check
 
     - [src/api/content-summary](https://github.com/hubertnare/strapi5-custom-api-endpoint/tree/d756156ebbd7b6ae5202bab20fa23f2f7e724d50/src/api/content-summary)
 
+- [Build a Blog Using Strapi and Next.js | Strapi Blog](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi)
+
+- [Epic Next.js 15 Tutorial Part 1: Learn Next.js by building a real-life project | Strapi Blog](https://strapi.io/blog/epic-next-js-15-tutorial-part-1-learn-next-js-by-building-a-real-life-project)
+
+  - [[GitHub] PaulBratslavsky/epic-next-15-strapi-5](https://github.com/PaulBratslavsky/epic-next-15-strapi-5)
+
+  - [Epic Next.js 15 Tutorial Part 9: Backend Deployment To Strapi Cloud | Strapi Blog](https://strapi.io/blog/epic-next-js-15-tutorial-part-9-backend-deployment-to-strapi-cloud)
+
+  - [[GitHub] PaulBratslavsky/next-strapi-app-qa](https://github.com/PaulBratslavsky/next-strapi-app-qa)
+
+## Command Line Interface (CLI)
+
+- [Command Line Interface (CLI) | Strapi Docs](https://docs.strapi.io/cms/cli)
+
+  - [strapi generate](https://docs.strapi.io/cms/cli#strapi-generate)
+
+## Plugin
+
+- [Plugins | Strapi Market](https://market.strapi.io/)
+
 - [[GitHub] VirtusLab-Open-Source/strapi-plugin-navigation](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation) - A plugin for Strapi Headless CMS that provides navigation / menu builder feature with their possibility to control the audience and different output structure renderers like (flat, tree and RFR - ready for handling by Redux First Router)
 
-- [Build a Blog Using Strapi and Next.js | Strapi Blog](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi)
+- [Plugin creation | Strapi Docs](https://docs.strapi.io/cms/plugins-development/create-a-plugin)
+
+  - [[GitHub] strapi/strapi](https://github.com/strapi/strapi) / [examples](https://github.com/strapi/strapi/tree/main/examples) / [getstarted](https://github.com/strapi/strapi/tree/main/examples/getstarted) / [src/plugins/local-plugin](https://github.com/strapi/strapi/tree/main/examples/getstarted/src/plugins/local-plugin)
+
+- [[GitHub] strapi/strapi/packages/plugins/color-picker](https://github.com/strapi/strapi/tree/main/packages/plugins/color-picker) - A Strapi-maintained color picker custom field.
+
+- [Let's Build A Strapi 5 Plugin | Strapi Blog](https://strapi.io/blog/how-to-build-your-first-strapi-5-plugin)
+
+- [Build a Custom Strapi Plugin with Medium and Dev.to APIs - Part 1 | Strapi Blog](https://strapi.io/blog/build-a-custom-strapi-plugin-with-medium-and-devto-apis-part1)
+
+  - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-1](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-1)
+
+- [Build a Custom Strapi Plugin with Medium and Dev.to APIs - Part 2 | Strapi Blog](https://strapi.io/blog/build-a-custom-strapi-plugin-with-medium-and-devto-apis-part2)
+
+  - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-2](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-2)
 
 ## Performance
 
@@ -80,5 +107,15 @@ TODO: check
   - [[GitHub] uninterrupted-tech/strapi-webhook](https://github.com/uninterrupted-tech/strapi-webhook)
 
     - [src/api/github/controllers/trigger-pipeline.ts](https://github.com/uninterrupted-tech/strapi-webhook/blob/main/src/api/github/controllers/trigger-pipeline.ts#L32)
+
+  - [Managing your personal access tokens | GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
+    - [Permissions required for fine-grained personal access tokens | GitHub Docs](https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens)
+
+      - [Repository permissions for "Contents"](https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-contents)
+
+  - [REST API endpoints for repositories | GitHub Docs](https://docs.github.com/en/rest/repos/repos)
+
+    - [Create a repository dispatch event](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event)
 
 - [[GitHub] taskworld/strapi-plugin-github-action-dispatch](https://github.com/taskworld/strapi-plugin-github-action-dispatch) - A strapi plugin to trigger a github workflow from the strapi admin panel
