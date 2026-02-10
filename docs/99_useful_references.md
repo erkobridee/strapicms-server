@@ -30,11 +30,23 @@
 
   - [[GitHub] PaulBratslavsky/next-strapi-app-qa](https://github.com/PaulBratslavsky/next-strapi-app-qa)
 
+## Command Line Interface (CLI)
+
+- [Command Line Interface (CLI) | Strapi Docs](https://docs.strapi.io/cms/cli)
+
+  - [strapi generate](https://docs.strapi.io/cms/cli#strapi-generate)
+
 ## Plugin
 
 - [Plugins | Strapi Market](https://market.strapi.io/)
 
 - [[GitHub] VirtusLab-Open-Source/strapi-plugin-navigation](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation) - A plugin for Strapi Headless CMS that provides navigation / menu builder feature with their possibility to control the audience and different output structure renderers like (flat, tree and RFR - ready for handling by Redux First Router)
+
+- [Plugin creation | Strapi Docs](https://docs.strapi.io/cms/plugins-development/create-a-plugin)
+
+  - [[GitHub] strapi/strapi](https://github.com/strapi/strapi) / [examples](https://github.com/strapi/strapi/tree/main/examples) / [getstarted](https://github.com/strapi/strapi/tree/main/examples/getstarted) / [src/plugins/local-plugin](https://github.com/strapi/strapi/tree/main/examples/getstarted/src/plugins/local-plugin)
+
+- [[GitHub] strapi/strapi/packages/plugins/color-picker](https://github.com/strapi/strapi/tree/main/packages/plugins/color-picker) - A Strapi-maintained color picker custom field.
 
 - [Let's Build A Strapi 5 Plugin | Strapi Blog](https://strapi.io/blog/how-to-build-your-first-strapi-5-plugin)
 
