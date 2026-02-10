@@ -13,6 +13,8 @@ Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
   - [Project Settings](https://docs.strapi.io/cloud/projects/settings)
     - [Variables](https://docs.strapi.io/cloud/projects/settings#variables)
 
+- [[GitHub] strapi/strapi](https://github.com/strapi/strapi) - Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
+
 - [[GitHub] erkobridee/strapicms-astro-client](https://github.com/erkobridee/strapicms-astro-client) - Frontend application that consumes content from the Strapi CMS
 
 ## CLI commands
