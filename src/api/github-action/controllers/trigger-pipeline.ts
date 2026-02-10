@@ -14,16 +14,9 @@ const GITHUB_EVENT_TYPE = CONFIG.GITHUB.EVENT_TYPE;
 
 export default {
   post: async (ctx: Context, next: Next) => {
-    const auth = ctx.request.headers["x-authorization"];
-
-    if (auth !== getGithubAuth()) {
-      ctx.response.status = 403;
-      return next();
-    }
-
     const headers = new Headers({
-      Accept: "application/vnd.github.everest-preview+json",
-      Authorization: auth,
+      Accept: "application/vnd.github+json",
+      Authorization: getGithubAuth(),
     });
 
     const requestParams = new URLSearchParams(ctx.request.search);
@@ -36,16 +29,21 @@ export default {
 
     const body = {
       event_type,
+      client_payload: {
+        time: new Date().toISOString()
+      }
     };
 
     try {
-      await fetch(GITHUB_URL_DISPATCHES, {
+      const response = await fetch(GITHUB_URL_DISPATCHES, {
         method: "POST",
         headers,
         body: JSON.stringify(body),
       });
 
       ctx.response.status = 200;
+
+      console.log(response);
 
       return next();
     } catch (err) {
