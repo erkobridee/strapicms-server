@@ -11,7 +11,6 @@ if (
 }
 
 export const CONFIG = {
-  PORT: process.env.PORT || "1337",
   GITHUB: {
     URL: process.env.GITHUB_URL,
     PAT: process.env.GITHUB_PAT,

@@ -2,8 +2,6 @@ import type { Core } from "@strapi/strapi";
 
 import { CONFIG } from "../config";
 
-import { getGithubAuth } from "./get-github-auth";
-
 //----------------------------------------------------------------------------//
 
 const name = "GitHub Action";
@@ -42,16 +40,17 @@ export const setUpGithubWebhook = async (strapi: Core.Strapi) => {
     console.error(`Unable to prepare "${name}" webhook`, error);
   }
 
+  const server = strapi.config.get('server') as any;
+  const serverAbsoluteUrl = server.absoluteUrl;
+
   try {
     await webhookStore.createWebhook({
       id: "", // Strapi ignores it and uses auto-increment values
       events: [], // Webhook will be triggered manually
-      headers: {
-        "x-authorization": getGithubAuth(),
-      },
+      //headers: {},
       isEnabled: true,
       name,
-      url: `http://localhost:${CONFIG.PORT}/api/github-action?event_type=${CONFIG.GITHUB.EVENT_TYPE}`,
+      url: `${serverAbsoluteUrl}/api/github-action?event_type=${CONFIG.GITHUB.EVENT_TYPE}`,
     });
 
     console.log(`${name} webhook created.`);
