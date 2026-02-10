@@ -40,8 +40,19 @@ npx @strapi/sdk-plugin init github-action-dispatch
 
       - [Repository permissions for "Contents"](https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-contents)
 
-  - [REST API endpoints for repositories | GitHub Docs](https://docs.github.com/en/rest/repos/repos)
-
-    - [Create a repository dispatch event](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event)
-
 - [[GitHub] taskworld/strapi-plugin-github-action-dispatch](https://github.com/taskworld/strapi-plugin-github-action-dispatch) - A strapi v4 plugin to trigger a github workflow from the strapi admin panel
+
+### GitHub REST API
+
+- [REST API endpoints for repositories | GitHub Docs](https://docs.github.com/en/rest/repos/repos)
+
+  - [Create a repository dispatch event](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event)
+
+- [REST API endpoints for workflows | GitHub Docs](https://docs.github.com/en/rest/actions/workflows)
+
+  - [Create a workflow dispatch event](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event)
+
+- [REST API endpoints for workflow runs | GitHub Docs](https://docs.github.com/en/rest/actions/workflow-runs)
+
+  - [List workflow runs for a workflow](https://docs.github.com/en/rest/actions/workflow-runs#list-workflow-runs-for-a-workflow)
+
