@@ -93,3 +93,17 @@ http://localhost:1337
 - Improve performance
 
   - Install/Configure a [caching support](docs/99_useful_references.md#cache)
+
+- Triggering a GitHub Action
+
+  - Using a webhook approach
+
+    - based on: [Passing Body Data in Strapi Webhooks: Triggering GitHub Workflows Example | u11d](https://u11d.com/blog/passing-body-data-in-strapi-webhooks-triggering-git-hub-workflows-example/)
+
+    - downside
+
+      - it needs to define an exposed API url to be called by the webhook
+
+      - at the Admin / Webhooks page, the GitHub PAT is exposed
+
+    - GitHub Action triggered: [[GitHub] erkobridee/strapicms-astro-client :: strapi_triggers_github_workflow #1](https://github.com/erkobridee/strapicms-astro-client/actions/runs/21860880779)
