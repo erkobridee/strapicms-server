@@ -104,6 +104,4 @@ http://localhost:1337
 
       - it needs to define an exposed API url to be called by the webhook
 
-      - at the Admin / Webhooks page, the GitHub PAT is exposed
-
     - GitHub Action triggered: [[GitHub] erkobridee/strapicms-astro-client :: strapi_triggers_github_workflow #1](https://github.com/erkobridee/strapicms-astro-client/actions/runs/21860880779)
