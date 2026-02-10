@@ -7,6 +7,12 @@
 export default ({ env }) => ({
   ckeditor5: { enabled: true },
 
+  // https://docs.strapi.io/cms/plugins-development/create-a-plugin#configuration-with-a-local-plugin
+  "github-action-dispatch": {
+    enabled: true,
+    resolve: "./src/plugins/github-action-dispatch",
+  },
+
   // https://github.com/strapi-community/plugin-redis
   redis: {
     config: {
