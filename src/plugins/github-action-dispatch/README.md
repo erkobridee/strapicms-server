@@ -2,13 +2,23 @@
 
 Make it possible to dispatch an event into a specific GitHub repository
 
-## Initial setup
+## Initial Setup
 
 ```shell
 npx @strapi/sdk-plugin init github-action-dispatch
 ```
 
-## Useful references
+## Strapi Packages
+
+- [[GitHub] strapi/sdk-plugin](https://github.com/strapi/sdk-plugin) - CLI toolkit for developing a Strapi plugin
+
+- [[GitHub] strapi/design-system](https://github.com/strapi/design-system) - Strapi.io's design system
+
+  - [packages/design-system](https://github.com/strapi/design-system/tree/main/packages/design-system)
+
+  - [packages/icons](https://github.com/strapi/design-system/tree/main/packages/icons)
+
+## Useful References
 
 - [Plugin creation & setup | Strapi Docs](https://docs.strapi.io/cms/plugins-development/create-a-plugin)
 
