@@ -10,34 +10,20 @@ import {
   Typography
 } from '@strapi/design-system';
 
-// import { getTranslation } from '../utils/getTranslation';
+import { getTranslation } from '../utils/getTranslation';
 
 //----------------------------------------------------------------------------//
 
 const HomePage = () => {
   const { formatMessage } = useIntl();
 
-  /*
   return (
     <Main padding={5}>
       <Box paddingBottom={4} margin={20}>
-        <Typography variant="alpha">Welcome to {formatMessage({ id: getTranslation('plugin.name') })}</Typography>
+        <Typography variant="alpha">Welcome to {formatMessage({ id: getTranslation('name') })}</Typography>
 
         <Box>
-          <Typography variant="epsilon">{formatMessage({ id: getTranslation('plugin.description') })}</Typography>
-        </Box>
-      </Box>
-    </Main>
-  );
-  */
-
-  return (
-    <Main padding={5}>
-      <Box paddingBottom={4} margin={20}>
-        <Typography variant="alpha">Welcome to {`GitHub Action Dispatch`}</Typography>
-
-        <Box>
-          <Typography variant="epsilon">{`Make it possible to dispatch an event into a specific GitHub repository`}</Typography>
+          <Typography variant="epsilon">{formatMessage({ id: getTranslation('description') })}</Typography>
         </Box>
       </Box>
     </Main>
