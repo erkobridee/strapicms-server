@@ -1,4 +1,7 @@
 {
   "github-action-dispatch.name": "GitHub Action Dispatch",
-  "github-action-dispatch.description": "Make it possible to dispatch an event into a specific GitHub repository"
+  "github-action-dispatch.description": "Make it possible to dispatch an event into a specific GitHub repository",
+  "github-action-dispatch.triggerButtonLabel": "Trigger GitHub Action",
+  "github-action-dispatch.success": "Success",
+  "github-action-dispatch.failed": "Failed"
 }

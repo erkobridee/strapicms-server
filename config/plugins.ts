@@ -11,6 +11,11 @@ export default ({ env }) => ({
   "github-action-dispatch": {
     enabled: true,
     resolve: "./src/plugins/github-action-dispatch",
+    config: {
+      token: env('GITHUB_PAT'),
+      url: env('GITHUB_URL'),
+      eventType: env('GITHUB_EVENT_TYPE')
+    }
   },
 
   // https://github.com/strapi-community/plugin-redis
@@ -23,8 +28,8 @@ export default ({ env }) => ({
       connections: {
         default: {
           connection: {
-            host: "127.0.0.1",
-            port: env("CACHE_PORT", 6379),
+            host: '127.0.0.1',
+            port: env('CACHE_PORT', 6379),
             db: 0,
           },
           settings: {

@@ -6,9 +6,17 @@ import {
   // https://design-system.strapi.io/?path=/docs/components-box--docs
   Box,
 
+  // https://design-system.strapi.io/?path=/docs/components-flex--docs
+  Flex,
+
+  // https://design-system.strapi.io/?path=/docs/components-divider--docs
+  Divider,
+
   // https://design-system.strapi.io/?path=/docs/foundations-typography--docs
   Typography
 } from '@strapi/design-system';
+
+import TriggerButton from '../components/TriggerButton';
 
 import { getTranslation } from '../utils/getTranslation';
 
@@ -19,13 +27,26 @@ const HomePage = () => {
 
   return (
     <Main padding={5}>
-      <Box paddingBottom={4} margin={20}>
-        <Typography variant="alpha">Welcome to {formatMessage({ id: getTranslation('name') })}</Typography>
+      <Flex
+        gap={{ initial: 4, medium: 6, large: 8 }}
+        direction={{ initial: 'column' }}
+        alignItems={{ initial: 'flex-start' }}
+      >
 
         <Box>
-          <Typography variant="epsilon">{formatMessage({ id: getTranslation('description') })}</Typography>
+          <Typography variant="alpha">Welcome to {formatMessage({ id: getTranslation('name') })}</Typography>
+
+          <Box>
+            <Typography variant="delta">{formatMessage({ id: getTranslation('description') })}</Typography>
+          </Box>
         </Box>
-      </Box>
+
+        <Divider width="100%" />
+
+        <TriggerButton />
+
+        <Divider width="100%" />
+      </Flex>
     </Main>
   );
 };

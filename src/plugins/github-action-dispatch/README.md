@@ -20,7 +20,25 @@ npx @strapi/sdk-plugin init github-action-dispatch
 
 ## Useful References
 
-- [Plugin creation & setup | Strapi Docs](https://docs.strapi.io/cms/plugins-development/create-a-plugin)
+- [Plugins | Strapi Market](https://market.strapi.io/)
+
+- [Developing Strapi plugins | Strapi Docs](https://docs.strapi.io/cms/plugins-development/developing-plugins)
+
+  - [Plugin creation](https://docs.strapi.io/cms/plugins-development/create-a-plugin)
+
+  - [Plugin structure](https://docs.strapi.io/cms/plugins-development/plugin-structure)
+
+  - Plugin APIs
+
+    - [Admin Panel API for plugins](https://docs.strapi.io/cms/plugins-development/admin-panel-api)
+
+    - [Server API for plugins](https://docs.strapi.io/cms/plugins-development/server-api)
+
+  - Guides
+
+    - [How to store and access data from a Strapi plugin](https://docs.strapi.io/cms/plugins-development/guides/store-and-access-data)
+
+    - [How to pass data from server to admin panel with a Strapi plugin](https://docs.strapi.io/cms/plugins-development/guides/pass-data-from-server-to-admin)
 
 - [Let's Build A Strapi 5 Plugin | Strapi Blog](https://strapi.io/blog/how-to-build-your-first-strapi-5-plugin)
 
@@ -33,6 +51,8 @@ npx @strapi/sdk-plugin init github-action-dispatch
   - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-2](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-2)
 
 - [how to I create a local strapi plugin that allows me to deploy it at the strapi cloud | Perplexity.ai](https://www.perplexity.ai/search/how-to-i-create-a-local-strapi-GVcIFfHMQ2qVflKxaMSlkg)
+
+- [How to build your first plugin in Strapi v4: A beginner’s guide | QED42](https://www.qed42.com/insights/how-to-build-your-first-plugin-in-strapi-a-beginners-guide)
 
 ### GitHub Workflows
 

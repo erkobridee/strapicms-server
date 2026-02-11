@@ -1,9 +1,11 @@
 import type { Core } from '@strapi/strapi';
 
+import { PLUGIN_ID } from '../config';
+
 const controller = ({ strapi }: { strapi: Core.Strapi }) => ({
   index(ctx) {
     ctx.body = strapi
-      .plugin('github-action-dispatch')
+      .plugin(PLUGIN_ID)
       // the name of the service file & the method.
       .service('service')
       .getWelcomeMessage();
