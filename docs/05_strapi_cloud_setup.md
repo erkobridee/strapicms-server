@@ -1,6 +1,8 @@
 🔙 [README.md](../README.md)
 
-# 💭 Strapi Cloud Setup
+# 💭 Strapi Cloud
+
+## Setup
 
 1. Create a new Project - https://cloud.strapi.io/new-project/my-project
 
@@ -19,6 +21,28 @@
 8. setup the needed environment variables
 
 9. click at the Create project button
+
+## Deployments
+
+- They are done when a new commit is made to the assigned branch at the Strapi Cloud project
+
+  - for each deployment, it's available 2 logs
+
+    - Build logs
+
+    - Deployment logs
+
+> [!IMPORTANT]
+> At the first access, it will be requested to create the `super admin user`
+>
+> for example:
+>
+> - name: `Super Admin`
+> - email: `admin@strapi.io`
+> - password: `Admin987654321`
+
+> [!TIP]
+> The first deployment will have a clean state without any content available at the `Content Manager`
 
 ## Useful References
 
