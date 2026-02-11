@@ -16,11 +16,20 @@ const name = "GitHub Action";
  * - https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#create-a-repository-dispatch-event
  * - https://docs.strapi.io/dev-docs/backend-customization/webhooks
  */
-export const setUpGithubWebhook = async (strapi: Core.Strapi) => {
+export const setUpGithubWebhook = async (strapi: Core.Strapi, skip: boolean = false) => {
+  if (skip) return;
+
+  console.log('\n');
+
   const webhookStore =
     "webhookStore" in strapi
       ? strapi.webhookStore // v4
       : await strapi.get("webhookStore"); // v5
+
+  const server = strapi.config.get('server') as any;
+  const serverAbsoluteUrl = server.absoluteUrl;
+
+  const url = `${serverAbsoluteUrl}/api/github-action?event_type=${CONFIG.GITHUB.EVENT_TYPE}`;
 
   try {
     const webhooks = await webhookStore.findWebhooks();
@@ -28,6 +37,13 @@ export const setUpGithubWebhook = async (strapi: Core.Strapi) => {
     const oldWebhook = webhooks.find((webhook) => webhook.name === name);
 
     if (oldWebhook) {
+
+      if(oldWebhook.url === url) {
+        console.log(`${name} webhook is already setup.\n`);
+
+        return;
+      }
+
       console.log(`Removing old ${oldWebhook.name} webhook...`);
 
       await webhookStore.deleteWebhook(oldWebhook.id);
@@ -40,9 +56,6 @@ export const setUpGithubWebhook = async (strapi: Core.Strapi) => {
     console.error(`Unable to prepare "${name}" webhook`, error);
   }
 
-  const server = strapi.config.get('server') as any;
-  const serverAbsoluteUrl = server.absoluteUrl;
-
   try {
     await webhookStore.createWebhook({
       id: "", // Strapi ignores it and uses auto-increment values
@@ -50,13 +63,15 @@ export const setUpGithubWebhook = async (strapi: Core.Strapi) => {
       //headers: {},
       isEnabled: true,
       name,
-      url: `${serverAbsoluteUrl}/api/github-action?event_type=${CONFIG.GITHUB.EVENT_TYPE}`,
+      url
     });
 
     console.log(`${name} webhook created.`);
   } catch (error) {
     console.error(`Unable to create "${name}" webhook`, error);
   }
+
+  console.log('\n');
 };
 
 export default setUpGithubWebhook;

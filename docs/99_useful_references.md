@@ -39,30 +39,6 @@
 
   - [strapi generate](https://docs.strapi.io/cms/cli#strapi-generate)
 
-## Plugin
-
-- [Plugins | Strapi Market](https://market.strapi.io/)
-
-- [[GitHub] VirtusLab-Open-Source/strapi-plugin-navigation](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation) - A plugin for Strapi Headless CMS that provides navigation / menu builder feature with their possibility to control the audience and different output structure renderers like (flat, tree and RFR - ready for handling by Redux First Router)
-
-- [Plugin creation | Strapi Docs](https://docs.strapi.io/cms/plugins-development/create-a-plugin)
-
-  - [[GitHub] strapi/strapi](https://github.com/strapi/strapi) / [examples](https://github.com/strapi/strapi/tree/main/examples) / [getstarted](https://github.com/strapi/strapi/tree/main/examples/getstarted) / [src/plugins/local-plugin](https://github.com/strapi/strapi/tree/main/examples/getstarted/src/plugins/local-plugin)
-
-- [[GitHub] strapi/strapi/packages/plugins/color-picker](https://github.com/strapi/strapi/tree/main/packages/plugins/color-picker) - A Strapi-maintained color picker custom field.
-
-- [Let's Build A Strapi 5 Plugin | Strapi Blog](https://strapi.io/blog/how-to-build-your-first-strapi-5-plugin)
-
-- [Build a Custom Strapi Plugin with Medium and Dev.to APIs - Part 1 | Strapi Blog](https://strapi.io/blog/build-a-custom-strapi-plugin-with-medium-and-devto-apis-part1)
-
-  - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-1](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-1)
-
-- [Build a Custom Strapi Plugin with Medium and Dev.to APIs - Part 2 | Strapi Blog](https://strapi.io/blog/build-a-custom-strapi-plugin-with-medium-and-devto-apis-part2)
-
-  - [[GitHub] Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin - part-2](https://github.com/Theodore-Kelechukwu-Onyejiaku/custom-strapi-plugin/tree/part-2)
-
-- [how to I create a local strapi plugin that allows me to deploy it at the strapi cloud | Perplexity.ai](https://www.perplexity.ai/search/how-to-i-create-a-local-strapi-GVcIFfHMQ2qVflKxaMSlkg)
-
 ## Performance
 
 - [6 Performance Mistakes in Strapi and Next.js Apps (and How to Fix Them) | Strapi Blog](https://strapi.io/blog/performance-mistakes-strapi-nextjs-apps)
@@ -102,25 +78,3 @@
   - [[GitHub] Theodore-Kelechukwu-Onyejiaku/astro-strapi-tutorial](https://github.com/Theodore-Kelechukwu-Onyejiaku/astro-strapi-tutorial)
 
 - [How to Create an SSG (Static Site Generation) Application with Strapi Webhooks and NextJs | Strapi Blog](https://strapi.io/blog/how-to-create-an-ssg-static-site-generation-application-with-strapi-webhooks-and-nextjs)
-
-## GitHub Workflows
-
-- [Passing Body Data in Strapi Webhooks: Triggering GitHub Workflows Example | u11d](https://u11d.com/blog/passing-body-data-in-strapi-webhooks-triggering-git-hub-workflows-example/)
-
-  - [Passing Body Data in Strapi Webhooks: Triggering GitHub Workflows Example | Dev Community](https://dev.to/u11d/passing-body-data-in-strapi-webhooks-triggering-github-workflows-example-43nh)
-
-  - [[GitHub] uninterrupted-tech/strapi-webhook](https://github.com/uninterrupted-tech/strapi-webhook)
-
-    - [src/api/github/controllers/trigger-pipeline.ts](https://github.com/uninterrupted-tech/strapi-webhook/blob/main/src/api/github/controllers/trigger-pipeline.ts#L32)
-
-  - [Managing your personal access tokens | GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-
-    - [Permissions required for fine-grained personal access tokens | GitHub Docs](https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens)
-
-      - [Repository permissions for "Contents"](https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-contents)
-
-  - [REST API endpoints for repositories | GitHub Docs](https://docs.github.com/en/rest/repos/repos)
-
-    - [Create a repository dispatch event](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event)
-
-- [[GitHub] taskworld/strapi-plugin-github-action-dispatch](https://github.com/taskworld/strapi-plugin-github-action-dispatch) - A strapi v4 plugin to trigger a github workflow from the strapi admin panel

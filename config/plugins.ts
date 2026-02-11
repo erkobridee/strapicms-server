@@ -7,6 +7,17 @@
 export default ({ env }) => ({
   ckeditor5: { enabled: true },
 
+  // https://docs.strapi.io/cms/plugins-development/create-a-plugin#configuration-with-a-local-plugin
+  "github-action-dispatch": {
+    enabled: true,
+    resolve: "./src/plugins/github-action-dispatch",
+    config: {
+      token: env('GITHUB_PAT'),
+      url: env('GITHUB_URL'),
+      eventType: env('GITHUB_EVENT_TYPE')
+    }
+  },
+
   // https://github.com/strapi-community/plugin-redis
   redis: {
     config: {
@@ -17,8 +28,8 @@ export default ({ env }) => ({
       connections: {
         default: {
           connection: {
-            host: "127.0.0.1",
-            port: env("CACHE_PORT", 6379),
+            host: '127.0.0.1',
+            port: env('CACHE_PORT', 6379),
             db: 0,
           },
           settings: {
