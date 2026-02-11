@@ -14,13 +14,29 @@ const github = ({ strapi }: { strapi: Core.Strapi }) => ({
         .service('github')
         .triggerDispatch();
 
-      ctx.body = response;
+      const { url, status, statusText, headers } = response;
+
+      const body = {
+        url,
+        status,
+        statusText,
+        headers: Array.from(headers.entries())
+      };
+
+      ctx.body = JSON.stringify(body);
+
       ctx.response.status = 200;
 
+      console.log('\n');
+      console.log(`plugin::${PLUGIN_ID} -> controller::github -> method::triggerDispatch -> response\n`);
+      console.log(ctx.body);
+      console.log('');
+
       return next();
-    } catch (error) {
-      ctx.body = error;
-      ctx.response.status = 500;
+    } catch (error: any) {
+      ctx.body = JSON.stringify(error);
+
+      ctx.response.status = error.status || 500;
 
       return next();
     }

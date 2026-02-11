@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useIntl } from 'react-intl';
 
-// import axios from 'axios';
+import axios from 'axios';
 
 import {
   // https://design-system.strapi.io/?path=/docs/components-box--docs
@@ -25,6 +25,14 @@ import { PLUGIN_ID } from '../pluginId';
 
 //----------------------------------------------------------------------------//
 
+const API_ENDPOINT = `/${PLUGIN_ID}/trigger-dispatch`;
+
+const STATE = {
+  SUCCESS: 'success',
+  FAILED: 'failed',
+  EMPTY: ''
+} as const;
+
 const rotation = keyframes`
   from {
     transform: rotate(0deg);
@@ -42,18 +50,26 @@ const LoaderAnimated = styled(Loader)`
 const TriggerButton = () => {
   const { formatMessage } = useIntl();
   const [ loading, setLoading ] = useState(false);
-  const [ state, setState ] = useState('');
+  const [ state, setState ] = useState<string>(STATE.EMPTY);
 
   const callTriggerDispatch = async () => {
     setLoading(true);
-    setState('');
 
-    console.log(`TODO: define the backend call to trigger the dispatch >> plugin::${PLUGIN_ID}`);
+    setState(STATE.EMPTY);
 
-    setTimeout(() => {
-      setLoading(false);
-      setState('success');
-    }, 1000)
+    try {
+      const response = await axios.get(API_ENDPOINT);
+
+      console.log(response);
+
+      setState(STATE.SUCCESS);
+    } catch(error) {
+      console.error(error);
+
+      setState(STATE.FAILED);
+    }
+
+    setLoading(false);
   }
 
   const handleClick: React.MouseEventHandler<HTMLButtonElement> = (_e) => {
@@ -62,7 +78,7 @@ const TriggerButton = () => {
 
   const renderStatus = () => {
 
-    if (state === '') return null;
+    if (state === STATE.EMPTY) return null;
 
     return (
       <Box>
@@ -71,10 +87,14 @@ const TriggerButton = () => {
           direction={{ initial: 'row' }}
           alignItems={{ initial: 'center' }}
         >
-          <Typography variant="epsilon">{formatMessage({ id: getTranslation( state === 'success' ? 'success' : 'failed') })}</Typography>
+          <Typography variant="epsilon">
+            {formatMessage({
+              id: getTranslation( state === STATE.SUCCESS ? STATE.SUCCESS : STATE.FAILED )
+            })}
+          </Typography>
 
 
-          {state === 'success' ? <Check /> : <Cross />}
+          {state === STATE.SUCCESS ? <Check /> : <Cross />}
         </Flex>
       </Box>
     );

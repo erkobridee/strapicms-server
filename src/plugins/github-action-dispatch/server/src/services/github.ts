@@ -29,7 +29,7 @@ const github = ({ strapi }: { strapi: Core.Strapi }) => ({
       });
 
       console.log('');
-      console.log(`plugin::${PLUGIN_ID} -> service::github -> method::triggerDispatch -> response`);
+      console.log(`plugin::${PLUGIN_ID} -> service::github -> method::triggerDispatch -> response\n`);
       console.log(response);
       console.log('');
 
