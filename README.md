@@ -61,6 +61,8 @@ http://localhost:1337
 
 - [Strapi Cloud Setup](docs/05_strapi_cloud_setup.md)
 
+- [Data Transfer between Strapi Instances](docs/06_data_transfer.md)
+
 - [Useful References](docs/99_useful_references.md)
 
 ## Findings
