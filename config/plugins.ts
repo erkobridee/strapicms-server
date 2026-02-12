@@ -5,7 +5,7 @@
 // https://strapi-community.github.io/plugin-rest-cache/guide/provider/redis.html
 
 export default ({ env }) => {
-  const isCacheEnabled = !!env("CACHE_PORT");
+  const isCacheEnabled = !!env("REDIS_PORT");
 
   return {
     ckeditor5: { enabled: true },
@@ -32,8 +32,8 @@ export default ({ env }) => {
         connections: {
           default: {
             connection: {
-              host: "127.0.0.1",
-              port: env("CACHE_PORT", 6379),
+              host: env("REDIS_HOST", "127.0.0.1"),
+              port: env("REDIS_PORT", 6379),
               db: 0,
             },
             settings: {
