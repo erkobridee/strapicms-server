@@ -109,3 +109,25 @@ http://localhost:1337
     - GitHub Action triggered: [[GitHub] erkobridee/strapicms-astro-client :: strapi_triggers_github_workflow #1](https://github.com/erkobridee/strapicms-astro-client/actions/runs/21860880779)
 
   - Using a Strapi v5 plugin ( see [src/plugins/github-action-dispatch](/src/plugins/github-action-dispatch) )
+
+- Strapi Cloud Instance
+
+  - The paid version has support for multiple environments
+
+  - [Steps to setup](docs/05_strapi_cloud_setup.md#setup)
+
+  - Only the code is deployed from the GitHub repository
+
+    - [Deployments management | Strapi Cloud Docs](https://docs.strapi.io/cloud/projects/deploys)
+
+    - [Deployment history and logs | Strapi Cloud Docs](https://docs.strapi.io/cloud/projects/deploys-history)
+
+  - The data needs to be transfered between Strapi Instances ( [Data Transfer](docs/06_data_transfer.md) )
+
+  - If no e-mail service provider is defined, the Cloud instance doesn't send any e-mail
+
+    - [Email | Strapi CMS Docs](https://docs.strapi.io/cms/features/email)
+
+    - [Email Provider | Strapi Cloud Docs](https://docs.strapi.io/cloud/advanced/email)
+
+    - [Nodemailer provider for Strapi | Strapi Market](https://market.strapi.io/providers/@strapi-provider-email-nodemailer)
