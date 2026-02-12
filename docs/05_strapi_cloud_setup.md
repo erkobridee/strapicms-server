@@ -32,6 +32,10 @@
 
     - Deployment logs
 
+## Strapi Cloud Instance
+
+**URL:** `https://<project>.strapiapp.com/`
+
 > [!IMPORTANT]
 > At the first access, it will be requested to create the `super admin user`
 >
@@ -43,6 +47,51 @@
 
 > [!TIP]
 > The first deployment will have a clean state without any content available at the `Content Manager`
+
+### Adding a New user
+
+1. Access the Strapi Cloud Instance
+
+2. Login with a super admin user
+
+3. Access the Settings page
+
+4. Click on the `Administration Panel > Users` menu item
+
+5. Click on the `Invite new user` button
+
+6. Fill up the user information and assign the roles
+
+   For example:
+
+   - First name: `Test Editor`
+   - Last name: `Strapi Clould`
+   - Email: `test.editor@strapi.io`
+   - User's roles: `Editor`
+
+   ![invite new user](./assets/strapi_cloud_setup/invite_new_user.png)
+
+7. Click on the `Invite user` button
+
+   Copy the invitation URL: `https://<project>.strapiapp.com/admin/auth/register?registrationToken=<token>`
+
+   ![invite new user finish](./assets/strapi_cloud_setup/invite_new_user_finish.png)
+
+8. Click on the `Finish` button
+
+### New User first access
+
+1. Open the invitation URL `https://<project>.strapiapp.com/admin/auth/register?registrationToken=<token>`
+
+2. Setup the user password
+
+   For example: `pass1@Cloud`
+
+   ![user first access](./assets/strapi_cloud_setup/user_first_access.png)
+
+3. Click on the `Let's start` button
+
+   ![user logged-in](./assets/strapi_cloud_setup/user_logged-in.png)
 
 ## Useful References
 
