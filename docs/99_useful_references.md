@@ -32,6 +32,7 @@
 
 - [[GitHub] SuriyaRamesh/strapi-starter-local-setup](https://github.com/SuriyaRamesh/strapi-starter-local-setup) - Strapi Starter Next 14, Tailwind, Typescript and Strapi
 
+- [[GitHub] pluginpal/strapi-plugin-publisher](https://github.com/pluginpal/strapi-plugin-publisher) - A plugin for Strapi Headless CMS that provides the ability provides the ability to easily schedule publishing and unpublishing of any content type.
 
 ## Command Line Interface (CLI)
 
