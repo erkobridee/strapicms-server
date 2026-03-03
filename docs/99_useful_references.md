@@ -34,6 +34,8 @@
 
 - [[GitHub] pluginpal/strapi-plugin-publisher](https://github.com/pluginpal/strapi-plugin-publisher) - A plugin for Strapi Headless CMS that provides the ability provides the ability to easily schedule publishing and unpublishing of any content type.
 
+- [[GitHub] pluginpal/strapi-plugin-config-sync](https://github.com/pluginpal/strapi-plugin-config-sync) - CLI & GUI for continuous migration of config data across environments
+
 ## Command Line Interface (CLI)
 
 - [Command Line Interface (CLI) | Strapi Docs](https://docs.strapi.io/cms/cli)
