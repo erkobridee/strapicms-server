@@ -5,11 +5,9 @@ Testing of [Strapi](https://strapi.io/) - Open source Node.js Headless CMS 🚀
 - [Enterprise Edition](https://strapi.io/enterprise)
 
 - [CMS Docs](https://docs.strapi.io/cms/intro)
-
   - [CMS Pricing](https://strapi.io/pricing-cms)
 
 - [Cloud Docs](https://docs.strapi.io/cloud/intro)
-
   - [Cloud Pricing](https://strapi.io/pricing-cloud)
 
   - [Project Settings](https://docs.strapi.io/cloud/projects/settings)
@@ -42,7 +40,6 @@ http://localhost:1337
 ---
 
 - [Upgrade tool | Strapi Blog](https://docs.strapi.io/cms/upgrade-tool)
-
   - [Upgrade to the latest version](https://docs.strapi.io/cms/upgrade-tool#upgrade-to-the-latest-version)
 
     ```shell
@@ -68,7 +65,6 @@ http://localhost:1337
 ## Findings
 
 - Supports multi language content [ [Internationalization (i18n)](https://docs.strapi.io/cms/features/internationalization) ]
-
   - Needs to define the supported languages ( [Adding a new locale](https://docs.strapi.io/cms/features/internationalization#adding-a-new-locale) )
 
   - Once defining the Content Type, [it should be configured to support internacionalization](https://docs.strapi.io/cms/features/internationalization#content-type-builder)
@@ -76,32 +72,24 @@ http://localhost:1337
   - [Editing the content](https://docs.strapi.io/cms/features/internationalization#usage) is done one language per time, and each language content should be published ( [Draft & Publish](https://docs.strapi.io/cms/features/draft-and-publish) )
 
 - Content
-
   - Modeling
-
     - It should be done at the [Content-Type Builder](https://docs.strapi.io/cms/features/content-type-builder)
 
   - Editing
-
     - It should be done at the [Content Manager](https://docs.strapi.io/cms/features/content-manager)
 
     - [Supports Markdown content](https://docs.strapi.io/cms/features/content-type-builder#rich-text-markdown), but the UI component to edit it provides a simple support
-
       - For advance support I have used the plugin [CKEditor 5](https://market.strapi.io/plugins/@_sh-strapi-plugin-ckeditor)
-
         - To add images, it should be done on the edit view, not on the source view
 
         - [[GitHub] nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor) - Integrates CKEditor 5 into your Strapi project as a fully customizable custom field.
           - [Error: Could not find Custom Field: plugin::ckeditor5.CKEditor · Issue #239 · nshenderov/strapi-plugin-ckeditor](https://github.com/nshenderov/strapi-plugin-ckeditor/issues/239#issuecomment-3861176792)
 
 - Improve performance
-
   - Install/Configure a [caching support](docs/99_useful_references.md#cache)
 
 - Triggering a GitHub Action
-
   - Using a webhook approach
-
     - based on: [Passing Body Data in Strapi Webhooks: Triggering GitHub Workflows Example | u11d](https://u11d.com/blog/passing-body-data-in-strapi-webhooks-triggering-git-hub-workflows-example/)
 
     - downside: it needs to define an exposed API url to be called by the webhook
@@ -111,13 +99,11 @@ http://localhost:1337
   - Using a Strapi v5 plugin ( see [src/plugins/github-action-dispatch](/src/plugins/github-action-dispatch) )
 
 - Strapi Cloud Instance
-
   - The paid version has support for multiple environments
 
   - [Steps to setup](docs/05_strapi_cloud_setup.md#setup)
 
   - Only the code is deployed from the GitHub repository
-
     - [Deployments management | Strapi Cloud Docs](https://docs.strapi.io/cloud/projects/deploys)
 
     - [Deployment history and logs | Strapi Cloud Docs](https://docs.strapi.io/cloud/projects/deploys-history)
@@ -125,7 +111,6 @@ http://localhost:1337
   - The data needs to be transfered between Strapi Instances ( [Data Transfer](docs/06_data_transfer.md) )
 
   - If no e-mail service provider is defined, the Cloud instance doesn't send any e-mail
-
     - [Email | Strapi CMS Docs](https://docs.strapi.io/cms/features/email)
 
     - [Email Provider | Strapi Cloud Docs](https://docs.strapi.io/cloud/advanced/email)
