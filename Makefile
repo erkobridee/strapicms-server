@@ -100,6 +100,6 @@ pg-restore: docker-up
 
 setup-nodejs-deps:
 	@echo "Installing the Node.js dependencies..."
-	@npm i
+	@pnpm i
 
 setup: setup-base-dirs pg-restore setup-nodejs-deps
