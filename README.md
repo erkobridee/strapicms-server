@@ -30,7 +30,7 @@ make
 2\. start the Strapi CMS
 
 ```shell
-npm run dev
+pnpm dev
 ```
 
 3\. access the Strapi CMS admin page
