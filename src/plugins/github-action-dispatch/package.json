@@ -36,16 +36,16 @@
     "react-intl": "^7.1.14"
   },
   "devDependencies": {
-    "@strapi/strapi": "^5.61.1",
+    "@strapi/strapi": "5.63.0",
     "@strapi/sdk-plugin": "^6.1.1",
     "prettier": "^3.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.3",
+    "react-router-dom": "6.30.6",
     "styled-components": "^6.3.9",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@strapi/typescript-utils": "^5.35.0",
+    "@strapi/typescript-utils": "5.63.0",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
@@ -53,7 +53,7 @@
     "@strapi/sdk-plugin": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.3",
+    "react-router-dom": "6.30.6",
     "styled-components": "^6.3.9"
   },
   "strapi": {
@@ -65,5 +65,12 @@
   "name": "github-action-dispatch",
   "description": "Make it possible to dispatch an event into a specific GitHub repository",
   "license": "MIT",
-  "author": "Erko Bridee"
+  "author": "Erko Bridee",
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true,
+    "@swc/core@1.16.22": true,
+    "core-js-pure@3.51.0": true,
+    "fsevents@2.3.3": true
+  }
 }
