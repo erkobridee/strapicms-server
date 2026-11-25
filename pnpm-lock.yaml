@@ -18,8 +18,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(b5e13b922d67a4ca245beb4aeb79c965)
       '@strapi-community/provider-rest-cache-redis':
-        specifier: 5.0.0
-        version: 5.0.0(a255c63d5981147c0609828a6ed6572e)
+        specifier: 5.1.0
+        version: 5.1.0(a255c63d5981147c0609828a6ed6572e)
       '@strapi/plugin-cloud':
         specifier: 5.61.1
         version: 5.61.1(5aa19bfdcffc73cc99600115ac851602)
@@ -2768,10 +2768,11 @@ packages:
       '@strapi-community/plugin-rest-cache': 5.0.0
       '@strapi/strapi': ^5.0.0
 
-  '@strapi-community/provider-rest-cache-redis@5.0.0':
-    resolution: {integrity: sha512-2zSxlZzCZM9M3yZrlReOqrsy2Syp3HQbxLUHw3IOy0DQd/nB4ovJymYd3EezfwkBEJ52QeFneMXr7F69IAqbxw==}
+  '@strapi-community/provider-rest-cache-redis@5.1.0':
+    resolution: {integrity: sha512-RXT06Wv46iwvm+9tKBKK5usCO1/82KEiZ4DlxXT8JJ3BY351h8QQHYjCAVXnpr5cAi8eY77gRc2oZTvThoFKDA==}
+    engines: {node: '>=20.0.0 <=26.x.x'}
     peerDependencies:
-      '@strapi-community/plugin-rest-cache': 5.0.0
+      '@strapi-community/plugin-rest-cache': ^5.1.0
       '@strapi/strapi': ^5.0.0
 
   '@strapi/admin@5.61.1':
@@ -10683,12 +10684,13 @@ snapshots:
       cache-manager: 7.2.9
       quick-lru: 7.0.1
 
-  '@strapi-community/provider-rest-cache-redis@5.0.0(a255c63d5981147c0609828a6ed6572e)':
+  '@strapi-community/provider-rest-cache-redis@5.1.0(a255c63d5981147c0609828a6ed6572e)':
     dependencies:
       '@keyv/redis': 3.0.1(supports-color@5.5.0)
       '@strapi-community/plugin-rest-cache': 5.0.0(b5e13b922d67a4ca245beb4aeb79c965)
       '@strapi/strapi': 5.61.1(@babel/runtime@7.29.13)(@codemirror/autocomplete@6.20.4)(@codemirror/language@6.13.1)(@codemirror/lint@6.9.7)(@codemirror/search@6.7.2)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.4.0)(@swc/core@1.16.22(@swc/helpers@0.5.24))(@swc/helpers@0.5.24)(@types/hoist-non-react-statics@3.3.7(@types/react@18.3.31))(@types/node@20.19.43)(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(clean-css@5.3.3)(codemirror@6.0.2)(debug@4.3.4(supports-color@5.5.0))(esbuild@0.28.2)(html-minifier-terser@6.1.0)(jiti@2.7.0)(koa@2.16.4(supports-color@5.5.0))(lightningcss@1.32.0)(pg@8.8.0)(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.30.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(sharp@0.35.5(@types/node@20.19.43))(styled-components@6.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(supports-color@5.5.0)(terser@5.51.2)(ts-toolbelt@9.6.0)(type-fest@0.21.3)(uglify-js@3.19.3)(yaml@2.9.1)
       cache-manager: 7.2.9
+      keyv: 5.6.0
     transitivePeerDependencies:
       - supports-color
 
